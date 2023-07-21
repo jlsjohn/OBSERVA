@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>829136445246-e3mqvrt5tsm5p669n95mft00hd54hi4j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.829136445246-e3mqvrt5tsm5p669n95mft00hd54hi4j</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>829136445246-5707a08m73ks6o5r7oserg2jq22qgsam.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCbQT5lJ1pLfk7AZJvvqXT7sMxAt8RtLhk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>829136445246</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tecbio.observaapp</string>
+	<key>PROJECT_ID</key>
+	<string>teste2-84cf0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>teste2-84cf0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:829136445246:ios:e715d6ea4a364dd6a6166f</string>
+</dict>
+</plist>

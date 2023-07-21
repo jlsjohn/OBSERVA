@@ -1,0 +1,2 @@
+NSCameraUsageDescription = "Untuk mengambil gambar atau video, apl ini memerlukan kebenaran untuk mengakses kamera.";
+NSPhotoLibraryUsageDescription = "Untuk memuat naik data, apl ini memerlukan kebenaran untuk mengakses pustaka foto.";
