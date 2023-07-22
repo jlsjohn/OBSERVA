@@ -270,22 +270,22 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                               0.0, 0.0, 0.0, 12.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               if (Theme.of(context).brightness ==
                                   Brightness.light)
                                 Image.asset(
-                                  'assets/images/logo_newforceLight@3x.png',
-                                  width: 130.0,
-                                  height: 40.0,
+                                  'assets/images/OBSERVA_LOGO.png',
+                                  width: 75.0,
+                                  height: 120.0,
                                   fit: BoxFit.fitWidth,
                                 ),
                               if (Theme.of(context).brightness ==
                                   Brightness.dark)
                                 Image.asset(
-                                  'assets/images/logo_newforceDark@3x.png',
-                                  width: 130.0,
-                                  height: 40.0,
+                                  'assets/images/OBSERVA_LOGO_D.png',
+                                  width: 75.0,
+                                  height: 120.0,
                                   fit: BoxFit.fitWidth,
                                 ),
                             ],

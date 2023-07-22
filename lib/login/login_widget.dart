@@ -331,32 +331,38 @@ class _LoginWidgetState extends State<LoginWidget>
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 30.0),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              children: [
-                                if (Theme.of(context).brightness ==
-                                    Brightness.light)
-                                  Image.asset(
-                                    'assets/images/logo_newforceLight_alt@3x.png',
-                                    width: 170.0,
-                                    height: 60.0,
-                                    fit: BoxFit.fitWidth,
-                                  ),
-                                if (Theme.of(context).brightness ==
-                                    Brightness.dark)
-                                  Image.asset(
-                                    'assets/images/logo_newforceDark_alt@3x.png',
-                                    width: 170.0,
-                                    height: 60.0,
-                                    fit: BoxFit.fitWidth,
-                                  ),
-                              ],
-                            ).animateOnPageLoad(
-                                animationsMap['rowOnPageLoadAnimation1']!),
+                          Align(
+                            alignment: AlignmentDirectional(0.0, 0.0),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 0.0, 30.0),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  if (Theme.of(context).brightness ==
+                                      Brightness.light)
+                                    Image.asset(
+                                      'assets/images/OBSERVA_LOGO.png',
+                                      width: 224.0,
+                                      height: 358.0,
+                                      fit: BoxFit.fitWidth,
+                                    ),
+                                  if (Theme.of(context).brightness ==
+                                      Brightness.dark)
+                                    Align(
+                                      alignment: AlignmentDirectional(0.0, 0.0),
+                                      child: Image.asset(
+                                        'assets/images/OBSERVA_LOGO_D.png',
+                                        width: 224.0,
+                                        height: 358.0,
+                                        fit: BoxFit.fitWidth,
+                                      ),
+                                    ),
+                                ],
+                              ).animateOnPageLoad(
+                                  animationsMap['rowOnPageLoadAnimation1']!),
+                            ),
                           ),
                           Text(
                             FFLocalizations.of(context).getText(

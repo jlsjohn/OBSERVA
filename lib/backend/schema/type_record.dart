@@ -31,12 +31,18 @@ class TypeRecord extends FirestoreRecord {
   String get example => _example ?? '';
   bool hasExample() => _example != null;
 
+  // "icon" field.
+  String? _icon;
+  String get icon => _icon ?? '';
+  bool hasIcon() => _icon != null;
+
   DocumentReference get parentReference => reference.parent.parent!;
 
   void _initializeFields() {
     _name = snapshotData['name'] as String?;
     _description = snapshotData['description'] as String?;
     _example = snapshotData['example'] as String?;
+    _icon = snapshotData['icon'] as String?;
   }
 
   static Query<Map<String, dynamic>> collection([DocumentReference? parent]) =>
@@ -81,12 +87,14 @@ Map<String, dynamic> createTypeRecordData({
   String? name,
   String? description,
   String? example,
+  String? icon,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
       'name': name,
       'description': description,
       'example': example,
+      'icon': icon,
     }.withoutNulls,
   );
 
@@ -100,12 +108,13 @@ class TypeRecordDocumentEquality implements Equality<TypeRecord> {
   bool equals(TypeRecord? e1, TypeRecord? e2) {
     return e1?.name == e2?.name &&
         e1?.description == e2?.description &&
-        e1?.example == e2?.example;
+        e1?.example == e2?.example &&
+        e1?.icon == e2?.icon;
   }
 
   @override
   int hash(TypeRecord? e) =>
-      const ListEquality().hash([e?.name, e?.description, e?.example]);
+      const ListEquality().hash([e?.name, e?.description, e?.example, e?.icon]);
 
   @override
   bool isValidKey(Object? o) => o is TypeRecord;

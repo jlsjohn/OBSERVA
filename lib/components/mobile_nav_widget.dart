@@ -124,7 +124,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                 highlightColor: Colors.transparent,
                 onTap: () async {
                   context.pushNamed(
-                    'myTeam',
+                    'measurements',
                     extra: <String, dynamic>{
                       kTransitionInfoKey: TransitionInfo(
                         hasTransition: true,
@@ -212,7 +212,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                 highlightColor: Colors.transparent,
                 onTap: () async {
                   context.pushNamed(
-                    'Main_Contracts',
+                    'Main_Locals',
                     extra: <String, dynamic>{
                       kTransitionInfoKey: TransitionInfo(
                         hasTransition: true,

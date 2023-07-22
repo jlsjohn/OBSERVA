@@ -133,8 +133,8 @@ class _NavBarPageState extends State<NavBarPage> {
     final tabs = {
       'Home': HomeWidget(),
       'Main_animalList': MainAnimalListWidget(),
-      'myTeam': MyTeamWidget(),
-      'Main_Contracts': MainContractsWidget(),
+      'measurements': MeasurementsWidget(),
+      'Main_Locals': MainLocalsWidget(),
       'Main_profilePage': MainProfilePageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);

@@ -315,16 +315,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Painel',
     },
     'nnv46x35': {
-      'en': 'Below is a summary of your teams activity.',
-      'id': 'Di bawah ini adalah ringkasan aktivitas tim Anda.',
-      'ms': 'Di bawah ialah ringkasan aktiviti pasukan anda.',
-      'pt': 'Abaixo está um resumo da atividade de sua equipe.',
+      'en': 'Below is a summary of activities',
+      'id': 'Di bawah ini adalah rangkuman kegiatan',
+      'ms': 'Di bawah adalah ringkasan aktiviti',
+      'pt': 'Abaixo está um resumo das atividades',
     },
     'jqevo63s': {
-      'en': 'New Animal',
-      'id': 'Hewan Baru',
-      'ms': 'Haiwan Baru',
-      'pt': 'Novo animal',
+      'en': 'Registered animals',
+      'id': 'Hewan terdaftar',
+      'ms': 'Haiwan berdaftar',
+      'pt': 'Animais Registrados',
     },
     'd0r4w3cc': {
       'en': '24',
@@ -333,10 +333,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': '24',
     },
     '8vot9bzj': {
-      'en': 'New Place',
-      'id': 'Tempat baru',
-      'ms': 'Tempat Baru',
-      'pt': 'Novo lugar',
+      'en': 'Registered Locations',
+      'id': 'Lokasi Terdaftar',
+      'ms': 'Lokasi Berdaftar',
+      'pt': 'Locais Registrados',
     },
     '463rfkem': {
       'en': '3,200',
@@ -348,7 +348,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Disabled Locations',
       'id': 'Lokasi Dinonaktifkan',
       'ms': 'Lokasi Kurang Upaya',
-      'pt': 'Locais desativados',
+      'pt': 'Locais Desativados',
     },
     '2wlrr5lg': {
       'en': '4300',
@@ -441,7 +441,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Animals',
       'id': 'Hewan',
       'ms': 'Haiwan',
-      'pt': 'animais',
+      'pt': 'Animais',
     },
     'lvnskphp': {
       'en': 'All',
@@ -672,13 +672,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': '__',
     },
   },
-  // myTeam
+  // measurements
   {
     '8jlklje5': {
-      'en': 'My Team',
-      'id': 'Kelompok ku',
-      'ms': 'Pasukan saya',
-      'pt': 'Meu time',
+      'en': 'measurements',
+      'id': 'pengukuran',
+      'ms': 'ukuran',
+      'pt': 'Medições',
     },
     '9iuss6gl': {
       'en': 'Search for your customers...',
@@ -873,7 +873,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': '__',
     },
   },
-  // Main_Contracts
+  // Main_Locals
   {
     '4h88trkp': {
       'en': 'Contracts',
@@ -886,30 +886,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'id': 'Lokasi',
       'ms': 'Locais',
       'pt': 'Locais',
-    },
-    't967eizl': {
-      'en': 'Projects',
-      'id': 'Proyek',
-      'ms': 'Projek',
-      'pt': 'Projetos',
-    },
-    'dpt94d56': {
-      'en': 'No-Code Platform Design',
-      'id': 'Desain Platform Tanpa Kode',
-      'ms': 'Reka Bentuk Platform Tanpa Kod',
-      'pt': 'Design de plataforma sem código',
-    },
-    '2a7y5e2w': {
-      'en': 'Design Team Docs',
-      'id': 'Dokumen Tim Desain',
-      'ms': 'Dokumen Pasukan Reka Bentuk',
-      'pt': 'Documentos da equipe de design',
-    },
-    'dlt46loo': {
-      'en': 'Contracts',
-      'id': 'Kontrak',
-      'ms': 'Kontrak',
-      'pt': 'Contratos',
     },
     'sqmgdsam': {
       'en': 'ACME Co.',
@@ -1032,10 +1008,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // animalDetails
   {
     'obyrn1rb': {
-      'en': 'Customer Name',
-      'id': 'Nama Pelanggan',
-      'ms': 'Nama Pelanggan',
-      'pt': 'nome do cliente',
+      'en': 'Animal Name',
+      'id': 'Nama Hewan',
+      'ms': 'Nama Haiwan',
+      'pt': 'Nome do Animal',
     },
     '00sam6zz': {
       'en': 'Randy Alcorn',
@@ -1044,16 +1020,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Randy Alcorn',
     },
     'nxuoeukv': {
-      'en': 'High Profile',
-      'id': 'Kalangan atas',
-      'ms': 'Profil tinggi',
-      'pt': 'Alto perfil',
+      'en': 'Animal Type',
+      'id': 'Jenis Hewan',
+      'ms': 'Jenis Haiwan',
+      'pt': 'Tipo de animal',
     },
     'ecbeopja': {
-      'en': 'Title',
-      'id': 'Judul',
-      'ms': 'Tajuk',
-      'pt': 'Título',
+      'en': 'Breed',
+      'id': 'Keturunan',
+      'ms': 'baka',
+      'pt': 'Raça',
     },
     'xf6clrz6': {
       'en': 'Head of Procurement',
@@ -1062,10 +1038,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Chefe de Compras',
     },
     'kl55bl1c': {
-      'en': 'Company',
-      'id': 'Perusahaan',
-      'ms': 'Syarikat',
-      'pt': 'Empresa',
+      'en': 'Local',
+      'id': 'Lokal',
+      'ms': 'Tempatan',
+      'pt': 'Local',
     },
     'nh9bkr5i': {
       'en': 'ACME Co.',
@@ -1074,10 +1050,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'ACME Co.',
     },
     'dkyygm1d': {
-      'en': 'Notes',
-      'id': 'Catatan',
-      'ms': 'Nota',
-      'pt': 'Notas',
+      'en': 'measurements',
+      'id': 'Pengukuran diambil',
+      'ms': 'Pengukuran diambil',
+      'pt': 'Medidas tomadas',
     },
     'p82rjlf3': {
       'en': 'Alexandria Smith',
@@ -1101,40 +1077,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comodo consequat.',
     },
-    'bujmmf46': {
-      'en': '8',
-      'id': '8',
-      'ms': '8',
-      'pt': '8',
-    },
-    'ntlrz0gk': {
-      'en': 'Notes',
-      'id': 'Catatan',
-      'ms': 'Nota',
-      'pt': 'Notas',
-    },
-    'rw21s3dk': {
-      'en': 'Randy Alcorn',
-      'id': 'Randy Alcorn',
-      'ms': 'Randy Alcorn',
-      'pt': 'Randy Alcorn',
-    },
-    'mj096u71': {
-      'en':
-          'I\'m not really sure about this section here aI think you should do soemthing cool!',
-      'id':
-          'Saya tidak begitu yakin tentang bagian ini di sini. Saya pikir Anda harus melakukan sesuatu yang keren!',
-      'ms':
-          'Saya tidak begitu pasti tentang bahagian ini di sini kerana saya fikir anda perlu melakukan sesuatu yang menarik!',
-      'pt':
-          'Não tenho muita certeza sobre esta seção aqui e acho que você deveria fazer algo legal!',
-    },
-    '1n2y2xin': {
-      'en': 'a min ago',
-      'id': 'menit yang lalu',
-      'ms': 'min yang lalu',
-      'pt': 'um minuto atrás',
-    },
     'ojneuoau': {
       'en': 'Generate Quote',
       'id': 'Hasilkan Kutipan',
@@ -1154,7 +1096,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Lar',
     },
   },
-  // projectDetails
+  // localDetails
   {
     'olng4jgs': {
       'en': 'ACME Co.',
@@ -1243,101 +1185,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Marcar como Completo',
     },
     'c0s3jdsy': {
-      'en': 'Home',
-      'id': 'Rumah',
-      'ms': 'Rumah',
-      'pt': 'Lar',
-    },
-  },
-  // projectDetailsHealthAi
-  {
-    'mxf4vrjw': {
-      'en': 'HealthAi',
-      'id': 'KesehatanAi',
-      'ms': 'KesihatanAi',
-      'pt': 'HealthAi',
-    },
-    'wsgonkz2': {
-      'en': 'Client Acquisition for Q3',
-      'id': 'Akuisisi Klien untuk Q3',
-      'ms': 'Pemerolehan Pelanggan untuk S3',
-      'pt': 'Aquisição de clientes para o terceiro trimestre',
-    },
-    'ynyuwhqo': {
-      'en': 'Next Action',
-      'id': 'Tindakan Selanjutnya',
-      'ms': 'Tindakan Seterusnya',
-      'pt': 'Próxima ação',
-    },
-    'zk7z07v0': {
-      'en': 'Tuesday, 10:00am',
-      'id': 'Selasa, 10:00',
-      'ms': 'Selasa, 10:00 pagi',
-      'pt': 'terça-feira, 10h',
-    },
-    'lux9j0yp': {
-      'en': 'In Progress',
-      'id': 'Sedang berlangsung',
-      'ms': 'Sedang Berlangsung',
-      'pt': 'Em andamento',
-    },
-    'ry6jvd0g': {
-      'en': 'Contract Details',
-      'id': 'Detail Kontrak',
-      'ms': 'Butiran Kontrak',
-      'pt': 'Detalhes do contrato',
-    },
-    'hu32scl5': {
-      'en': '\$125,000',
-      'id': '\$125.000',
-      'ms': '\$125,000',
-      'pt': '\$ 125.000',
-    },
-    'sfu6o269': {
-      'en':
-          'Additional Details around this contract and who is working on it in this card!',
-      'id':
-          'Detail Tambahan seputar kontrak ini dan siapa yang mengerjakannya di kartu ini!',
-      'ms':
-          'Butiran Tambahan mengenai kontrak ini dan siapa yang mengusahakannya dalam kad ini!',
-      'pt':
-          'Detalhes adicionais sobre este contrato e quem está trabalhando nele neste cartão!',
-    },
-    '5sv9a4ka': {
-      'en': 'Mark as Complete',
-      'id': 'Tandai sebagai Selesai',
-      'ms': 'Tandai sebagai Selesai',
-      'pt': 'Marcar como Completo',
-    },
-    'rrgcwkj1': {
-      'en': 'Contract Details',
-      'id': 'Detail Kontrak',
-      'ms': 'Butiran Kontrak',
-      'pt': 'Detalhes do contrato',
-    },
-    '8bwk4oui': {
-      'en': '\$67,000',
-      'id': '\$67.000',
-      'ms': '\$67,000',
-      'pt': '\$ 67.000',
-    },
-    'p2hoxaq9': {
-      'en':
-          'Additional Details around this contract and who is working on it in this card!',
-      'id':
-          'Detail Tambahan seputar kontrak ini dan siapa yang mengerjakannya di kartu ini!',
-      'ms':
-          'Butiran Tambahan mengenai kontrak ini dan siapa yang mengusahakannya dalam kad ini!',
-      'pt':
-          'Detalhes adicionais sobre este contrato e quem está trabalhando nele neste cartão!',
-    },
-    'ww95wm3k': {
-      'en': 'Mark as Complete',
-      'id': 'Tandai sebagai Selesai',
-      'ms': 'Tandai sebagai Selesai',
-      'pt': 'Marcar como Completo',
-    },
-    '54l7ivhw': {
       'en': 'Home',
       'id': 'Rumah',
       'ms': 'Rumah',
@@ -1477,6 +1324,27 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Deixa para lá',
     },
   },
+  // modal_Welcome
+  {
+    '00flvi93': {
+      'en': 'Congratulations!',
+      'id': 'Selamat!',
+      'ms': 'tahniah!',
+      'pt': 'Parabéns!',
+    },
+    'fmzceh74': {
+      'en': 'A new contract has been generated for:',
+      'id': 'Kontrak baru telah dibuat untuk:',
+      'ms': 'Kontrak baru telah dijana untuk:',
+      'pt': 'Um novo contrato foi gerado para:',
+    },
+    'g8q2u55w': {
+      'en': 'Continue',
+      'id': 'Melanjutkan',
+      'ms': 'teruskan',
+      'pt': 'Continuar',
+    },
+  },
   // modal_Message
   {
     'wa4vkne2': {
@@ -1502,27 +1370,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'OK',
     },
     'oo4y13nf': {
-      'en': 'Continue',
-      'id': 'Melanjutkan',
-      'ms': 'teruskan',
-      'pt': 'Continuar',
-    },
-  },
-  // modal_Welcome
-  {
-    '00flvi93': {
-      'en': 'Congratulations!',
-      'id': 'Selamat!',
-      'ms': 'tahniah!',
-      'pt': 'Parabéns!',
-    },
-    'fmzceh74': {
-      'en': 'A new contract has been generated for:',
-      'id': 'Kontrak baru telah dibuat untuk:',
-      'ms': 'Kontrak baru telah dijana untuk:',
-      'pt': 'Um novo contrato foi gerado para:',
-    },
-    'g8q2u55w': {
       'en': 'Continue',
       'id': 'Melanjutkan',
       'ms': 'teruskan',
@@ -1724,21 +1571,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'id': '',
       'ms': '',
       'pt': 'Salvar alterações',
-    },
-  },
-  // changePass
-  {
-    '6gnbylgc': {
-      'en': 'Password',
-      'id': 'Kata sandi',
-      'ms': 'Kata laluan',
-      'pt': 'Senha',
-    },
-    'vl8uvbuc': {
-      'en': 'Enter your email here...',
-      'id': 'Masukkan email Anda disini...',
-      'ms': 'Masukkan e-mel anda di sini...',
-      'pt': 'Digite seu email aqui...',
     },
   },
   // Miscellaneous

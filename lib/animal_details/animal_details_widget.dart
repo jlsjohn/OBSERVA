@@ -388,7 +388,7 @@ class _AnimalDetailsWidgetState extends State<AnimalDetailsWidget>
                           children: [
                             Text(
                               FFLocalizations.of(context).getText(
-                                'obyrn1rb' /* Customer Name */,
+                                'obyrn1rb' /* Animal Name */,
                               ),
                               style: FlutterFlowTheme.of(context).bodySmall,
                             ).animateOnPageLoad(
@@ -467,7 +467,7 @@ class _AnimalDetailsWidgetState extends State<AnimalDetailsWidget>
                           ),
                           Text(
                             FFLocalizations.of(context).getText(
-                              'nxuoeukv' /* High Profile */,
+                              'nxuoeukv' /* Animal Type */,
                             ),
                             style: FlutterFlowTheme.of(context).bodyMedium,
                           ),
@@ -485,7 +485,7 @@ class _AnimalDetailsWidgetState extends State<AnimalDetailsWidget>
                       children: [
                         Text(
                           FFLocalizations.of(context).getText(
-                            'ecbeopja' /* Title */,
+                            'ecbeopja' /* Breed */,
                           ),
                           style: FlutterFlowTheme.of(context).bodySmall,
                         ).animateOnPageLoad(
@@ -514,7 +514,7 @@ class _AnimalDetailsWidgetState extends State<AnimalDetailsWidget>
                       children: [
                         Text(
                           FFLocalizations.of(context).getText(
-                            'kl55bl1c' /* Company */,
+                            'kl55bl1c' /* Local */,
                           ),
                           style: FlutterFlowTheme.of(context).bodySmall,
                         ).animateOnPageLoad(
@@ -554,7 +554,7 @@ class _AnimalDetailsWidgetState extends State<AnimalDetailsWidget>
                         EdgeInsetsDirectional.fromSTEB(20.0, 8.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'dkyygm1d' /* Notes */,
+                        'dkyygm1d' /* measurements */,
                       ),
                       style: FlutterFlowTheme.of(context).bodySmall,
                     ).animateOnPageLoad(
@@ -662,153 +662,6 @@ class _AnimalDetailsWidgetState extends State<AnimalDetailsWidget>
                                     'rnaiavvh' /* Lorem ipsum dolor sit amet, co... */,
                                   ),
                                   style: FlutterFlowTheme.of(context).bodySmall,
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 12.0, 0.0, 0.0),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  children: [
-                                    Icon(
-                                      Icons.mode_comment_outlined,
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      size: 24.0,
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          4.0, 0.0, 0.0, 0.0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'bujmmf46' /* 8 */,
-                                        ),
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyMedium,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          4.0, 0.0, 0.0, 0.0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'ntlrz0gk' /* Notes */,
-                                        ),
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodySmall,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 12.0, 0.0, 12.0),
-                                child: ListView(
-                                  padding: EdgeInsets.zero,
-                                  primary: false,
-                                  shrinkWrap: true,
-                                  scrollDirection: Axis.vertical,
-                                  children: [
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0.0, 0.0, 0.0, 12.0),
-                                      child: Row(
-                                        mainAxisSize: MainAxisSize.max,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          ClipRRect(
-                                            borderRadius:
-                                                BorderRadius.circular(40.0),
-                                            child: Image.network(
-                                              'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60',
-                                              width: 40.0,
-                                              height: 40.0,
-                                              fit: BoxFit.cover,
-                                            ),
-                                          ),
-                                          Column(
-                                            mainAxisSize: MainAxisSize.max,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.start,
-                                            children: [
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        12.0, 0.0, 0.0, 0.0),
-                                                child: Container(
-                                                  constraints: BoxConstraints(
-                                                    maxWidth: MediaQuery.sizeOf(
-                                                                context)
-                                                            .width *
-                                                        0.75,
-                                                  ),
-                                                  decoration: BoxDecoration(
-                                                    color: FlutterFlowTheme.of(
-                                                            context)
-                                                        .lineColor,
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            12.0),
-                                                  ),
-                                                  child: Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(12.0, 8.0,
-                                                                12.0, 8.0),
-                                                    child: Column(
-                                                      mainAxisSize:
-                                                          MainAxisSize.max,
-                                                      crossAxisAlignment:
-                                                          CrossAxisAlignment
-                                                              .start,
-                                                      children: [
-                                                        Text(
-                                                          FFLocalizations.of(
-                                                                  context)
-                                                              .getText(
-                                                            'rw21s3dk' /* Randy Alcorn */,
-                                                          ),
-                                                          style: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .bodyMedium,
-                                                        ),
-                                                        Text(
-                                                          FFLocalizations.of(
-                                                                  context)
-                                                              .getText(
-                                                            'mj096u71' /* I'm not really sure about this... */,
-                                                          ),
-                                                          style: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .bodySmall,
-                                                        ),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                ),
-                                              ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        12.0, 4.0, 0.0, 0.0),
-                                                child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '1n2y2xin' /* a min ago */,
-                                                  ),
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodySmall,
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
                                 ),
                               ),
                             ],

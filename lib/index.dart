@@ -5,13 +5,11 @@ export '/forgot_password/forgot_password_widget.dart' show ForgotPasswordWidget;
 export '/home/home_widget.dart' show HomeWidget;
 export '/main_animal_list/main_animal_list_widget.dart'
     show MainAnimalListWidget;
-export '/my_team/my_team_widget.dart' show MyTeamWidget;
-export '/main_contracts/main_contracts_widget.dart' show MainContractsWidget;
+export '/measurements/measurements_widget.dart' show MeasurementsWidget;
+export '/main_locals/main_locals_widget.dart' show MainLocalsWidget;
 export '/main_profile_page/main_profile_page_widget.dart'
     show MainProfilePageWidget;
 export '/animal_details/animal_details_widget.dart' show AnimalDetailsWidget;
-export '/project_details/project_details_widget.dart' show ProjectDetailsWidget;
-export '/project_details_health_ai/project_details_health_ai_widget.dart'
-    show ProjectDetailsHealthAiWidget;
+export '/local_details/local_details_widget.dart' show LocalDetailsWidget;
 export '/search_page/search_page_widget.dart' show SearchPageWidget;
 export '/edit_profile/edit_profile_widget.dart' show EditProfileWidget;

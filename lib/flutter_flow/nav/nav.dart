@@ -117,18 +117,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   : MainAnimalListWidget(),
             ),
             FFRoute(
-              name: 'myTeam',
-              path: 'myTeam',
+              name: 'measurements',
+              path: 'measurements',
               builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'myTeam')
-                  : MyTeamWidget(),
+                  ? NavBarPage(initialPage: 'measurements')
+                  : MeasurementsWidget(),
             ),
             FFRoute(
-              name: 'Main_Contracts',
-              path: 'mainContracts',
+              name: 'Main_Locals',
+              path: 'mainLocals',
               builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'Main_Contracts')
-                  : MainContractsWidget(),
+                  ? NavBarPage(initialPage: 'Main_Locals')
+                  : MainLocalsWidget(),
             ),
             FFRoute(
               name: 'Main_profilePage',
@@ -143,14 +143,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => AnimalDetailsWidget(),
             ),
             FFRoute(
-              name: 'projectDetails',
-              path: 'projectDetails',
-              builder: (context, params) => ProjectDetailsWidget(),
-            ),
-            FFRoute(
-              name: 'projectDetailsHealthAi',
-              path: 'projectDetailsHealthAi',
-              builder: (context, params) => ProjectDetailsHealthAiWidget(),
+              name: 'localDetails',
+              path: 'localDetails',
+              builder: (context, params) => LocalDetailsWidget(),
             ),
             FFRoute(
               name: 'searchPage',
@@ -345,8 +340,8 @@ class FFRoute {
               ? Container(
                   color: Colors.transparent,
                   child: Image.asset(
-                    'assets/images/splash_app_CRM_alt@2x.png',
-                    fit: BoxFit.cover,
+                    'assets/images/observa_gif.gif',
+                    fit: BoxFit.contain,
                   ),
                 )
               : page;

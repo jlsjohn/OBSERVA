@@ -105,16 +105,16 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                   children: [
                     if (Theme.of(context).brightness == Brightness.light)
                       Image.asset(
-                        'assets/images/logo_newforceLight_alt@3x.png',
-                        width: 170.0,
-                        height: 60.0,
+                        'assets/images/OBSERVA_LOGO.png',
+                        width: 75.0,
+                        height: 120.0,
                         fit: BoxFit.fitWidth,
                       ),
                     if (Theme.of(context).brightness == Brightness.dark)
                       Image.asset(
-                        'assets/images/logo_newforceDark_alt@3x.png',
-                        width: 170.0,
-                        height: 60.0,
+                        'assets/images/OBSERVA_LOGO_D.png',
+                        width: 75.0,
+                        height: 120.0,
                         fit: BoxFit.fitWidth,
                       ),
                   ],
@@ -243,7 +243,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                   highlightColor: Colors.transparent,
                   onTap: () async {
                     context.pushNamed(
-                      'myTeam',
+                      'measurements',
                       extra: <String, dynamic>{
                         kTransitionInfoKey: TransitionInfo(
                           hasTransition: true,
@@ -361,7 +361,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                   highlightColor: Colors.transparent,
                   onTap: () async {
                     context.pushNamed(
-                      'Main_Contracts',
+                      'Main_Locals',
                       extra: <String, dynamic>{
                         kTransitionInfoKey: TransitionInfo(
                           hasTransition: true,

@@ -982,11 +982,24 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                                   16.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'nnv46x35' /* Below is a summary of your tea... */,
+                                              'nnv46x35' /* Below is a summary of activiti... */,
                                             ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
-                                                .titleSmall,
+                                                .titleSmall
+                                                .override(
+                                                  fontFamily:
+                                                      FlutterFlowTheme.of(
+                                                              context)
+                                                          .titleSmallFamily,
+                                                  fontSize: 16.0,
+                                                  useGoogleFonts: GoogleFonts
+                                                          .asMap()
+                                                      .containsKey(
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .titleSmallFamily),
+                                                ),
                                           ).animateOnPageLoad(animationsMap[
                                               'textOnPageLoadAnimation2']!),
                                         ),
@@ -1111,7 +1124,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'jqevo63s' /* New Animal */,
+                                                              'jqevo63s' /* Registered animals */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1252,7 +1265,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              '8vot9bzj' /* New Place */,
+                                                              '8vot9bzj' /* Registered Locations */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)

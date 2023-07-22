@@ -11,19 +11,19 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'my_team_model.dart';
-export 'my_team_model.dart';
+import 'measurements_model.dart';
+export 'measurements_model.dart';
 
-class MyTeamWidget extends StatefulWidget {
-  const MyTeamWidget({Key? key}) : super(key: key);
+class MeasurementsWidget extends StatefulWidget {
+  const MeasurementsWidget({Key? key}) : super(key: key);
 
   @override
-  _MyTeamWidgetState createState() => _MyTeamWidgetState();
+  _MeasurementsWidgetState createState() => _MeasurementsWidgetState();
 }
 
-class _MyTeamWidgetState extends State<MyTeamWidget>
+class _MeasurementsWidgetState extends State<MeasurementsWidget>
     with TickerProviderStateMixin {
-  late MyTeamModel _model;
+  late MeasurementsModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -73,7 +73,7 @@ class _MyTeamWidgetState extends State<MyTeamWidget>
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => MyTeamModel());
+    _model = createModel(context, () => MeasurementsModel());
 
     _model.emailAddressController ??= TextEditingController();
     setupAnimations(
@@ -222,7 +222,7 @@ class _MyTeamWidgetState extends State<MyTeamWidget>
                                           16.0, 16.0, 0.0, 16.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          '8jlklje5' /* My Team */,
+                                          '8jlklje5' /* measurements */,
                                         ),
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)

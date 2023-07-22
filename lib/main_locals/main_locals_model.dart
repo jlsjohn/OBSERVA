@@ -1,4 +1,7 @@
+import '/components/command_palette_widget.dart';
+import '/components/web_nav_widget.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
+import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -8,22 +11,22 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-class ChangePassModel extends FlutterFlowModel {
-  ///  State fields for stateful widgets in this component.
+class MainLocalsModel extends FlutterFlowModel {
+  ///  State fields for stateful widgets in this page.
 
-  // State field(s) for password widget.
-  TextEditingController? passwordController;
-  late bool passwordVisibility;
-  String? Function(BuildContext, String?)? passwordControllerValidator;
+  final unfocusNode = FocusNode();
+  // Model for webNav component.
+  late WebNavModel webNavModel;
 
   /// Initialization and disposal methods.
 
   void initState(BuildContext context) {
-    passwordVisibility = false;
+    webNavModel = createModel(context, () => WebNavModel());
   }
 
   void dispose() {
-    passwordController?.dispose();
+    unfocusNode.dispose();
+    webNavModel.dispose();
   }
 
   /// Action blocks are added here.

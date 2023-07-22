@@ -9,19 +9,19 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'project_details_model.dart';
-export 'project_details_model.dart';
+import 'local_details_model.dart';
+export 'local_details_model.dart';
 
-class ProjectDetailsWidget extends StatefulWidget {
-  const ProjectDetailsWidget({Key? key}) : super(key: key);
+class LocalDetailsWidget extends StatefulWidget {
+  const LocalDetailsWidget({Key? key}) : super(key: key);
 
   @override
-  _ProjectDetailsWidgetState createState() => _ProjectDetailsWidgetState();
+  _LocalDetailsWidgetState createState() => _LocalDetailsWidgetState();
 }
 
-class _ProjectDetailsWidgetState extends State<ProjectDetailsWidget>
+class _LocalDetailsWidgetState extends State<LocalDetailsWidget>
     with TickerProviderStateMixin {
-  late ProjectDetailsModel _model;
+  late LocalDetailsModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -130,7 +130,7 @@ class _ProjectDetailsWidgetState extends State<ProjectDetailsWidget>
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => ProjectDetailsModel());
+    _model = createModel(context, () => LocalDetailsModel());
 
     setupAnimations(
       animationsMap.values.where((anim) =>
