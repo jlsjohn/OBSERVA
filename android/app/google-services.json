@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "829136445246",
+    "project_id": "teste2-84cf0",
+    "storage_bucket": "teste2-84cf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829136445246:android:b6eace063ec372fca6166f",
+        "android_client_info": {
+          "package_name": "com.tecbio.observaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829136445246-5707a08m73ks6o5r7oserg2jq22qgsam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tecbio.observaapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "829136445246-331770ht0cp1e35ir0qoldla3fj4uq7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAjL6PGAs21XC-83R9nxoy39vPLaEmL7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829136445246-331770ht0cp1e35ir0qoldla3fj4uq7j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "829136445246-e3mqvrt5tsm5p669n95mft00hd54hi4j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tecbio.observaapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
