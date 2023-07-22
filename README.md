@@ -2,9 +2,9 @@
 
 Projeto Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE
 
-## LOGO APP
+## LOGOS APP
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+![LIGHT](assets/images/OBSERVA_LOGO.png) ![DARK](assets/images/OBSERVA_LOGO_D.png)
 
 ## SOBRE O APP
 
@@ -22,14 +22,6 @@ O OBSERVA é destinado a cuidadores de animais que valorizam informações preci
 
 ## MVP OBSERVA
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 ## FLUXOGRAMA
 
 ## TELAS
