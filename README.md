@@ -23,8 +23,12 @@ O OBSERVA é destinado a cuidadores de animais que valorizam informações preci
 ## MVP OBSERVA
 [Link para o video de apresentação do app](https://youtu.be/ZjmerEBOoOY)
 
-## FLUXOGRAMA
+## FLUXOGRAMAS
+### STORYBOARD, BY: FLUTTERFLOW.IO
 ![LIGHT](assets/images/fake_mapa.png)
+
+### FLUXO DE LOGIN
+![LIGHT](assets/images/fluxograma_login.png)
 
 ## TELAS
 Abaixo estão as telas iniciais e em preview mode;
