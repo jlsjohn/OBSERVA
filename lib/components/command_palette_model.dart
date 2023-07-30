@@ -1,3 +1,6 @@
+import '/components/create_animal_widget.dart';
+import '/components/create_local_widget.dart';
+import '/components/create_measurements_widget.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';

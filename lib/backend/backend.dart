@@ -7,10 +7,7 @@ import 'schema/util/firestore_util.dart';
 
 import 'schema/users_record.dart';
 import 'schema/cities_record.dart';
-import 'schema/transactions_record.dart';
 import 'schema/animals_record.dart';
-import 'schema/type_record.dart';
-import 'schema/breed_record.dart';
 import 'schema/measurement_record.dart';
 
 export 'dart:async' show StreamSubscription;
@@ -21,10 +18,7 @@ export 'schema/util/schema_util.dart';
 
 export 'schema/users_record.dart';
 export 'schema/cities_record.dart';
-export 'schema/transactions_record.dart';
 export 'schema/animals_record.dart';
-export 'schema/type_record.dart';
-export 'schema/breed_record.dart';
 export 'schema/measurement_record.dart';
 
 /// Functions to query UsersRecords (as a Stream and as a Future).
@@ -101,43 +95,6 @@ Future<List<CitiesRecord>> queryCitiesRecordOnce({
       singleRecord: singleRecord,
     );
 
-/// Functions to query TransactionsRecords (as a Stream and as a Future).
-Future<int> queryTransactionsRecordCount({
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-}) =>
-    queryCollectionCount(
-      TransactionsRecord.collection,
-      queryBuilder: queryBuilder,
-      limit: limit,
-    );
-
-Stream<List<TransactionsRecord>> queryTransactionsRecord({
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollection(
-      TransactionsRecord.collection,
-      TransactionsRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
-Future<List<TransactionsRecord>> queryTransactionsRecordOnce({
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollectionOnce(
-      TransactionsRecord.collection,
-      TransactionsRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
 /// Functions to query AnimalsRecords (as a Stream and as a Future).
 Future<int> queryAnimalsRecordCount({
   Query Function(Query)? queryBuilder,
@@ -170,86 +127,6 @@ Future<List<AnimalsRecord>> queryAnimalsRecordOnce({
     queryCollectionOnce(
       AnimalsRecord.collection,
       AnimalsRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
-/// Functions to query TypeRecords (as a Stream and as a Future).
-Future<int> queryTypeRecordCount({
-  DocumentReference? parent,
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-}) =>
-    queryCollectionCount(
-      TypeRecord.collection(parent),
-      queryBuilder: queryBuilder,
-      limit: limit,
-    );
-
-Stream<List<TypeRecord>> queryTypeRecord({
-  DocumentReference? parent,
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollection(
-      TypeRecord.collection(parent),
-      TypeRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
-Future<List<TypeRecord>> queryTypeRecordOnce({
-  DocumentReference? parent,
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollectionOnce(
-      TypeRecord.collection(parent),
-      TypeRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
-/// Functions to query BreedRecords (as a Stream and as a Future).
-Future<int> queryBreedRecordCount({
-  DocumentReference? parent,
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-}) =>
-    queryCollectionCount(
-      BreedRecord.collection(parent),
-      queryBuilder: queryBuilder,
-      limit: limit,
-    );
-
-Stream<List<BreedRecord>> queryBreedRecord({
-  DocumentReference? parent,
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollection(
-      BreedRecord.collection(parent),
-      BreedRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
-Future<List<BreedRecord>> queryBreedRecordOnce({
-  DocumentReference? parent,
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollectionOnce(
-      BreedRecord.collection(parent),
-      BreedRecord.fromSnapshot,
       queryBuilder: queryBuilder,
       limit: limit,
       singleRecord: singleRecord,

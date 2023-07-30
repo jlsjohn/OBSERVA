@@ -435,576 +435,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': '__',
     },
   },
-  // Main_animalList
-  {
-    'n99lg1qh': {
-      'en': 'Animals',
-      'id': 'Hewan',
-      'ms': 'Haiwan',
-      'pt': 'Animais',
-    },
-    'lvnskphp': {
-      'en': 'All',
-      'id': 'Semua',
-      'ms': 'Semua',
-      'pt': 'Todos',
-    },
-    'a258xeav': {
-      'en': 'Randy Alcorn',
-      'id': 'Randy Alcorn',
-      'ms': 'Randy Alcorn',
-      'pt': 'Randy Alcorn',
-    },
-    'wduyui67': {
-      'en': 'Head of Procurement',
-      'id': 'Kepala Pengadaan',
-      'ms': 'Ketua Perolehan',
-      'pt': 'Chefe de Compras',
-    },
-    'riw99ssl': {
-      'en': 'ACME Co.',
-      'id': 'ACME Co.',
-      'ms': 'ACME Co.',
-      'pt': 'ACME Co.',
-    },
-    'u0su8kte': {
-      'en': 'James Wiseman',
-      'id': 'James Wisman',
-      'ms': 'James Wiseman',
-      'pt': 'James Wiseman',
-    },
-    'nyfsg4hw': {
-      'en': 'Account Manager',
-      'id': 'Manajer Akuntansi',
-      'ms': 'Pengurus akaun',
-      'pt': 'Gerente de contas',
-    },
-    'gzwu4cjr': {
-      'en': 'ACME Co.',
-      'id': 'ACME Co.',
-      'ms': 'ACME Co.',
-      'pt': 'ACME Co.',
-    },
-    'v1ffzm93': {
-      'en': 'Ignacious Rodriguez',
-      'id': 'Rodriguez yang bodoh',
-      'ms': 'Ignacious Rodriguez',
-      'pt': 'Inácio Rodriguez',
-    },
-    '8jo402mn': {
-      'en': 'Sales Manager',
-      'id': 'Manager Penjualan',
-      'ms': 'Pengurus jualan',
-      'pt': 'Gerente de vendas',
-    },
-    'r658c9dm': {
-      'en': 'Robin HQ',
-      'id': 'Markas Besar Robin',
-      'ms': 'Robin HQ',
-      'pt': 'Robin HQ',
-    },
-    'l5cpbw6i': {
-      'en': 'Elena Williams',
-      'id': 'Elena Williams',
-      'ms': 'Elena Williams',
-      'pt': 'Elena Williams',
-    },
-    '9ico69uv': {
-      'en': 'Head of Product & Innovation',
-      'id': 'Kepala Produk & Inovasi',
-      'ms': 'Ketua Produk & Inovasi',
-      'pt': 'Head de Produto e Inovação',
-    },
-    'i1898004': {
-      'en': 'Robin HQ',
-      'id': 'Markas Besar Robin',
-      'ms': 'Robin HQ',
-      'pt': 'Robin HQ',
-    },
-    's8kuamom': {
-      'en': 'Greg Brown',
-      'id': 'Greg Brown',
-      'ms': 'Greg Brown',
-      'pt': 'Greg Brown',
-    },
-    'uu60i528': {
-      'en': 'Account Manager',
-      'id': 'Manajer Akuntansi',
-      'ms': 'Pengurus akaun',
-      'pt': 'Gerente de contas',
-    },
-    '6nuzim8s': {
-      'en': 'Robin HQ',
-      'id': 'Markas Besar Robin',
-      'ms': 'Robin HQ',
-      'pt': 'Robin HQ',
-    },
-    'lwflemu4': {
-      'en': 'June Williamson',
-      'id': 'Juni Williamson',
-      'ms': 'June Williamson',
-      'pt': 'June Williamson',
-    },
-    'rxejb1ds': {
-      'en': 'Sr. Account Manager',
-      'id': 'Manajer Akun Sr',
-      'ms': 'Tuan Pengurus Akaun',
-      'pt': 'Gerente de contas sênior',
-    },
-    'k5yutyp7': {
-      'en': 'HealthAi',
-      'id': 'KesehatanAi',
-      'ms': 'KesihatanAi',
-      'pt': 'HealthAi',
-    },
-    'z6bqikmn': {
-      'en': 'June Williamson',
-      'id': 'Juni Williamson',
-      'ms': 'June Williamson',
-      'pt': 'June Williamson',
-    },
-    'rm4hba82': {
-      'en': 'Sr. Account Manager',
-      'id': 'Manajer Akun Sr',
-      'ms': 'Tuan Pengurus Akaun',
-      'pt': 'Gerente de contas sênior',
-    },
-    'id05iiyh': {
-      'en': 'HealthAi',
-      'id': 'KesehatanAi',
-      'ms': 'KesihatanAi',
-      'pt': 'HealthAi',
-    },
-    'qh2ock0d': {
-      'en': 'Active',
-      'id': 'Aktif',
-      'ms': 'Aktif',
-      'pt': 'Ativo',
-    },
-    'evmi1fjb': {
-      'en': 'June Williamson',
-      'id': 'Juni Williamson',
-      'ms': 'June Williamson',
-      'pt': 'June Williamson',
-    },
-    '7t7dfs7b': {
-      'en': 'Sr. Account Manager',
-      'id': 'Manajer Akun Sr',
-      'ms': 'Tuan Pengurus Akaun',
-      'pt': 'Gerente de contas sênior',
-    },
-    'rv0grt5f': {
-      'en': 'HealthAi',
-      'id': 'KesehatanAi',
-      'ms': 'KesihatanAi',
-      'pt': 'HealthAi',
-    },
-    '1c1n7s8k': {
-      'en': 'James Wiseman',
-      'id': 'James Wisman',
-      'ms': 'James Wiseman',
-      'pt': 'James Wiseman',
-    },
-    '13p4ybb4': {
-      'en': 'Account Manager',
-      'id': 'Manajer Akuntansi',
-      'ms': 'Pengurus akaun',
-      'pt': 'Gerente de contas',
-    },
-    'y7tux8cs': {
-      'en': 'HealthAi',
-      'id': 'KesehatanAi',
-      'ms': 'KesihatanAi',
-      'pt': 'HealthAi',
-    },
-    's7xebw09': {
-      'en': 'Cold Calls',
-      'id': 'Panggilan Dingin',
-      'ms': 'Panggilan Dingin',
-      'pt': 'Chamadas não solicitadas',
-    },
-    'xaq75cfo': {
-      'en': 'Randy Alcorn',
-      'id': 'Randy Alcorn',
-      'ms': 'Randy Alcorn',
-      'pt': 'Randy Alcorn',
-    },
-    '3hsvv2b4': {
-      'en': 'Head of Procurement',
-      'id': 'Kepala Pengadaan',
-      'ms': 'Ketua Perolehan',
-      'pt': 'Chefe de Compras',
-    },
-    '8df6l0nu': {
-      'en': 'ACME Co.',
-      'id': 'ACME Co.',
-      'ms': 'ACME Co.',
-      'pt': 'ACME Co.',
-    },
-    '1azw03n0': {
-      'en': 'Elena Williams',
-      'id': 'Elena Williams',
-      'ms': 'Elena Williams',
-      'pt': 'Elena Williams',
-    },
-    '4i0nlpng': {
-      'en': 'Head of Product & Innovation',
-      'id': 'Kepala Produk & Inovasi',
-      'ms': 'Ketua Produk & Inovasi',
-      'pt': 'Head de Produto e Inovação',
-    },
-    'k60lznjm': {
-      'en': 'Robin HQ',
-      'id': 'Markas Besar Robin',
-      'ms': 'Robin HQ',
-      'pt': 'Robin HQ',
-    },
-    'fcyoodds': {
-      'en': 'Animals',
-      'id': 'Hewan',
-      'ms': 'Haiwan',
-      'pt': 'animais',
-    },
-    '3ourv2w9': {
-      'en': '__',
-      'id': '__',
-      'ms': '__',
-      'pt': '__',
-    },
-  },
-  // measurements
-  {
-    '8jlklje5': {
-      'en': 'measurements',
-      'id': 'pengukuran',
-      'ms': 'ukuran',
-      'pt': 'Medições',
-    },
-    '9iuss6gl': {
-      'en': 'Search for your customers...',
-      'id': 'Telusuri pelanggan Anda...',
-      'ms': 'Cari pelanggan anda...',
-      'pt': 'Procure seus clientes...',
-    },
-    '5mtplc2u': {
-      'en': 'Member Name',
-      'id': 'Nama anggota',
-      'ms': 'Nama ahli',
-      'pt': 'Nome do membro',
-    },
-    'xsqhz5g4': {
-      'en': 'Email',
-      'id': 'Surel',
-      'ms': 'E-mel',
-      'pt': 'E-mail',
-    },
-    'xkijgi68': {
-      'en': 'Last Active',
-      'id': 'Aktif Terakhir',
-      'ms': 'Aktif Terakhir',
-      'pt': 'ativo pela última vez',
-    },
-    'dtsi2m5j': {
-      'en': 'Date Created',
-      'id': 'Tanggal Diciptakan',
-      'ms': 'Tarikh Dibuat',
-      'pt': 'Data Criada',
-    },
-    'qriboqj2': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-      'pt': 'Status',
-    },
-    'yxvgnrrg': {
-      'en': 'Alex Smith',
-      'id': 'Alex Smith',
-      'ms': 'Alex Smith',
-      'pt': 'Alex Smith',
-    },
-    'hbvgee7f': {
-      'en': 'user@domainname.com',
-      'id': 'pengguna@namadomain.com',
-      'ms': 'pengguna@nama domain.com',
-      'pt': 'usuário@domainname.com',
-    },
-    'cxqbcilh': {
-      'en': 'user@domain.com',
-      'id': 'pengguna@domain.com',
-      'ms': 'pengguna@domain.com',
-      'pt': 'usuario@dominio.com',
-    },
-    'mv4x7wmh': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-      'pt': 'Status',
-    },
-    'w2zw9cr7': {
-      'en': 'Andrea Rudolph',
-      'id': 'Andrea Rudolph',
-      'ms': 'Andrea Rudolph',
-      'pt': 'Andrea Rudolph',
-    },
-    '975lfxpw': {
-      'en': 'user@domainname.com',
-      'id': 'pengguna@namadomain.com',
-      'ms': 'pengguna@nama domain.com',
-      'pt': 'usuário@domainname.com',
-    },
-    'cr4tpu01': {
-      'en': 'user@domain.com',
-      'id': 'pengguna@domain.com',
-      'ms': 'pengguna@domain.com',
-      'pt': 'usuario@dominio.com',
-    },
-    '65466g2l': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-      'pt': 'Status',
-    },
-    '6wt4aamp': {
-      'en': 'Andrea Rudolph',
-      'id': 'Andrea Rudolph',
-      'ms': 'Andrea Rudolph',
-      'pt': 'Andrea Rudolph',
-    },
-    'l96eacgw': {
-      'en': 'user@domainname.com',
-      'id': 'pengguna@namadomain.com',
-      'ms': 'pengguna@nama domain.com',
-      'pt': 'usuário@domainname.com',
-    },
-    'l2l3xguz': {
-      'en': 'user@domain.com',
-      'id': 'pengguna@domain.com',
-      'ms': 'pengguna@domain.com',
-      'pt': 'usuario@dominio.com',
-    },
-    'j5fz217z': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-      'pt': 'Status',
-    },
-    'aa3kj1vf': {
-      'en': 'Andrea Rudolph',
-      'id': 'Andrea Rudolph',
-      'ms': 'Andrea Rudolph',
-      'pt': 'Andrea Rudolph',
-    },
-    'a34fke7r': {
-      'en': 'user@domainname.com',
-      'id': 'pengguna@namadomain.com',
-      'ms': 'pengguna@nama domain.com',
-      'pt': 'usuário@domainname.com',
-    },
-    'anzvwh88': {
-      'en': 'user@domain.com',
-      'id': 'pengguna@domain.com',
-      'ms': 'pengguna@domain.com',
-      'pt': 'usuario@dominio.com',
-    },
-    'pmybqcyj': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-      'pt': 'Status',
-    },
-    'ejpiipnj': {
-      'en': 'Andrea Rudolph',
-      'id': 'Andrea Rudolph',
-      'ms': 'Andrea Rudolph',
-      'pt': 'Andrea Rudolph',
-    },
-    'xhwmudov': {
-      'en': 'user@domainname.com',
-      'id': 'pengguna@namadomain.com',
-      'ms': 'pengguna@nama domain.com',
-      'pt': 'usuário@domainname.com',
-    },
-    '55rj4ws9': {
-      'en': 'user@domain.com',
-      'id': 'pengguna@domain.com',
-      'ms': 'pengguna@domain.com',
-      'pt': 'usuario@dominio.com',
-    },
-    '7fin6z7v': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-      'pt': 'Status',
-    },
-    '54fbheio': {
-      'en': 'Andrea Rudolph',
-      'id': 'Andrea Rudolph',
-      'ms': 'Andrea Rudolph',
-      'pt': 'Andrea Rudolph',
-    },
-    '5zdg3l5v': {
-      'en': 'user@domainname.com',
-      'id': 'pengguna@namadomain.com',
-      'ms': 'pengguna@nama domain.com',
-      'pt': 'usuário@domainname.com',
-    },
-    'pfrreymz': {
-      'en': 'user@domain.com',
-      'id': 'pengguna@domain.com',
-      'ms': 'pengguna@domain.com',
-      'pt': 'usuario@dominio.com',
-    },
-    'r47lqzrc': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-      'pt': 'Status',
-    },
-    'ym579y79': {
-      'en': 'Dashboard',
-      'id': 'Dasbor',
-      'ms': 'Papan pemuka',
-      'pt': 'Painel',
-    },
-    'smtxdnbn': {
-      'en': '__',
-      'id': '__',
-      'ms': '__',
-      'pt': '__',
-    },
-  },
-  // Main_Locals
-  {
-    '4h88trkp': {
-      'en': 'Contracts',
-      'id': 'Kontrak',
-      'ms': 'Kontrak',
-      'pt': 'Contratos',
-    },
-    'smh1o93d': {
-      'en': 'Locais',
-      'id': 'Lokasi',
-      'ms': 'Locais',
-      'pt': 'Locais',
-    },
-    'sqmgdsam': {
-      'en': 'ACME Co.',
-      'id': 'ACME Co.',
-      'ms': 'ACME Co.',
-      'pt': 'ACME Co.',
-    },
-    '8t72ssfn': {
-      'en': 'Contracts for New Opportunities',
-      'id': 'Kontrak untuk Peluang Baru',
-      'ms': 'Kontrak untuk Peluang Baru',
-      'pt': 'Contratos para Novas Oportunidades',
-    },
-    'h9kiq8rj': {
-      'en': 'Next Action',
-      'id': 'Tindakan Selanjutnya',
-      'ms': 'Tindakan Seterusnya',
-      'pt': 'Próxima ação',
-    },
-    '7mjz03wi': {
-      'en': 'Tuesday, 10:00am',
-      'id': 'Selasa, 10:00',
-      'ms': 'Selasa, 10:00 pagi',
-      'pt': 'terça-feira, 10h',
-    },
-    '8e820p1r': {
-      'en': 'In Progress',
-      'id': 'Sedang berlangsung',
-      'ms': 'Sedang Berlangsung',
-      'pt': 'Em andamento',
-    },
-    '7wcrhzda': {
-      'en': 'HealthAi',
-      'id': 'KesehatanAi',
-      'ms': 'KesihatanAi',
-      'pt': 'HealthAi',
-    },
-    'sen48p1q': {
-      'en': 'Client Acquisition for Q3',
-      'id': 'Akuisisi Klien untuk Q3',
-      'ms': 'Pemerolehan Pelanggan untuk S3',
-      'pt': 'Aquisição de clientes para o terceiro trimestre',
-    },
-    'fp6xlmv9': {
-      'en': 'Next Action',
-      'id': 'Tindakan Selanjutnya',
-      'ms': 'Tindakan Seterusnya',
-      'pt': 'Próxima ação',
-    },
-    'k0rirjak': {
-      'en': 'Tuesday, 10:00am',
-      'id': 'Selasa, 10:00',
-      'ms': 'Selasa, 10:00 pagi',
-      'pt': 'terça-feira, 10h',
-    },
-    'nanoxp6w': {
-      'en': 'In Progress',
-      'id': 'Sedang berlangsung',
-      'ms': 'Sedang Berlangsung',
-      'pt': 'Em andamento',
-    },
-    'j08eiorc': {
-      'en': '__',
-      'id': '__',
-      'ms': '__',
-      'pt': '__',
-    },
-  },
-  // Main_profilePage
-  {
-    'qrxn5crt': {
-      'en': 'My Profile',
-      'id': 'Profil saya',
-      'ms': 'Profil saya',
-      'pt': 'Meu perfil',
-    },
-    'v1hh7jlp': {
-      'en': 'Switch to Dark Mode',
-      'id': 'Beralih ke Mode Gelap',
-      'ms': 'Tukar kepada Mod Gelap',
-      'pt': 'Alternar para o modo escuro',
-    },
-    'sh7q15l6': {
-      'en': 'Switch to Light Mode',
-      'id': 'Beralih ke Mode Cahaya',
-      'ms': 'Tukar kepada Mod Cahaya',
-      'pt': 'Alternar para o modo claro',
-    },
-    'fyxsf6vn': {
-      'en': 'Account Settings',
-      'id': 'Pengaturan akun',
-      'ms': 'Tetapan Akaun',
-      'pt': 'Configurações de Conta',
-    },
-    'h43llaan': {
-      'en': 'Change Password',
-      'id': 'Ganti kata sandi',
-      'ms': 'Tukar kata laluan',
-      'pt': 'Alterar a senha',
-    },
-    'b1lw0hfu': {
-      'en': 'Edit Profile',
-      'id': 'Sunting profil',
-      'ms': 'Sunting profil',
-      'pt': 'Editar Perfil',
-    },
-    'abqf147c': {
-      'en': 'Log Out',
-      'id': 'Keluar',
-      'ms': 'Log keluar',
-      'pt': 'Sair',
-    },
-    'o3dp9tss': {
-      'en': '__',
-      'id': '__',
-      'ms': '__',
-      'pt': '__',
-    },
-  },
   // animalDetails
   {
     'obyrn1rb': {
@@ -1012,18 +442,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'id': 'Nama Hewan',
       'ms': 'Nama Haiwan',
       'pt': 'Nome do Animal',
-    },
-    '00sam6zz': {
-      'en': 'Randy Alcorn',
-      'id': 'Randy Alcorn',
-      'ms': 'Randy Alcorn',
-      'pt': 'Randy Alcorn',
-    },
-    'nxuoeukv': {
-      'en': 'Animal Type',
-      'id': 'Jenis Hewan',
-      'ms': 'Jenis Haiwan',
-      'pt': 'Tipo de animal',
     },
     'ecbeopja': {
       'en': 'Breed',
@@ -1077,12 +495,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comodo consequat.',
     },
-    'ojneuoau': {
-      'en': 'Generate Quote',
-      'id': 'Hasilkan Kutipan',
-      'ms': 'Hasilkan Petikan',
-      'pt': 'Gerar Cotação',
-    },
     'suvzdvvk': {
       'en': 'View Company',
       'id': 'Lihat Perusahaan',
@@ -1090,101 +502,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Ver empresa',
     },
     '9t913b44': {
-      'en': 'Home',
-      'id': 'Rumah',
-      'ms': 'Rumah',
-      'pt': 'Lar',
-    },
-  },
-  // localDetails
-  {
-    'olng4jgs': {
-      'en': 'ACME Co.',
-      'id': 'ACME Co.',
-      'ms': 'ACME Co.',
-      'pt': 'ACME Co.',
-    },
-    'auzixtnu': {
-      'en': 'Contracts for New Opportunities',
-      'id': 'Kontrak untuk Peluang Baru',
-      'ms': 'Kontrak untuk Peluang Baru',
-      'pt': 'Contratos para Novas Oportunidades',
-    },
-    'b5izv7nf': {
-      'en': 'Next Action',
-      'id': 'Tindakan Selanjutnya',
-      'ms': 'Tindakan Seterusnya',
-      'pt': 'Próxima ação',
-    },
-    'vhaascws': {
-      'en': 'Tuesday, 10:00am',
-      'id': 'Selasa, 10:00',
-      'ms': 'Selasa, 10:00 pagi',
-      'pt': 'terça-feira, 10h',
-    },
-    'u5if4r56': {
-      'en': 'In Progress',
-      'id': 'Sedang berlangsung',
-      'ms': 'Sedang Berlangsung',
-      'pt': 'Em andamento',
-    },
-    'xmoxp4eg': {
-      'en': 'Contract Details',
-      'id': 'Detail Kontrak',
-      'ms': 'Butiran Kontrak',
-      'pt': 'Detalhes do contrato',
-    },
-    'nftjvt9b': {
-      'en': '\$210,000',
-      'id': '\$210.000',
-      'ms': '\$210,000',
-      'pt': '\$ 210.000',
-    },
-    'gpz3q8k6': {
-      'en':
-          'Additional Details around this contract and who is working on it in this card!',
-      'id':
-          'Detail Tambahan seputar kontrak ini dan siapa yang mengerjakannya di kartu ini!',
-      'ms':
-          'Butiran Tambahan mengenai kontrak ini dan siapa yang mengusahakannya dalam kad ini!',
-      'pt':
-          'Detalhes adicionais sobre este contrato e quem está trabalhando nele neste cartão!',
-    },
-    'yltv0mu8': {
-      'en': 'Mark as Complete',
-      'id': 'Tandai sebagai Selesai',
-      'ms': 'Tandai sebagai Selesai',
-      'pt': 'Marcar como Completo',
-    },
-    'rqfytlxg': {
-      'en': 'Contract Details',
-      'id': 'Detail Kontrak',
-      'ms': 'Butiran Kontrak',
-      'pt': 'Detalhes do contrato',
-    },
-    'dlykg4gm': {
-      'en': '\$120,000',
-      'id': '\$120.000',
-      'ms': '\$120,000',
-      'pt': '\$ 120.000',
-    },
-    'hsx3k6c4': {
-      'en':
-          'Additional Details around this contract and who is working on it in this card!',
-      'id':
-          'Detail Tambahan seputar kontrak ini dan siapa yang mengerjakannya di kartu ini!',
-      'ms':
-          'Butiran Tambahan mengenai kontrak ini dan siapa yang mengusahakannya dalam kad ini!',
-      'pt':
-          'Detalhes adicionais sobre este contrato e quem está trabalhando nele neste cartão!',
-    },
-    'okb12i1r': {
-      'en': 'Mark as Complete',
-      'id': 'Tandai sebagai Selesai',
-      'ms': 'Tandai sebagai Selesai',
-      'pt': 'Marcar como Completo',
-    },
-    'c0s3jdsy': {
       'en': 'Home',
       'id': 'Rumah',
       'ms': 'Rumah',
@@ -1263,65 +580,329 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Editar Perfil',
     },
   },
-  // modal_success
+  // Main_animalList
   {
-    'kred63vb': {
-      'en': 'Send Contract Confirmation',
-      'id': 'Kirim Konfirmasi Kontrak',
-      'ms': 'Hantar Pengesahan Kontrak',
-      'pt': 'Enviar confirmação do contrato',
+    'n99lg1qh': {
+      'en': 'Animals',
+      'id': 'Hewan',
+      'ms': 'Haiwan',
+      'pt': 'Animais',
     },
-    'hywgg8eu': {
-      'en': 'A new contract has been generated for:',
-      'id': 'Kontrak baru telah dibuat untuk:',
-      'ms': 'Kontrak baru telah dijana untuk:',
-      'pt': 'Um novo contrato foi gerado para:',
+    'lvnskphp': {
+      'en': 'All',
+      'id': 'Semua',
+      'ms': 'Semua',
+      'pt': 'Todos',
     },
-    'kmp2gbpy': {
+    'cjgns112': {
+      'en': '20',
+      'id': '20',
+      'ms': '20',
+      'pt': '20',
+    },
+    'qh2ock0d': {
+      'en': 'Actives',
+      'id': 'Aktif',
+      'ms': 'Aktif',
+      'pt': 'Ativos',
+    },
+    'dqhomqt2': {
+      'en': '20',
+      'id': '20',
+      'ms': '20',
+      'pt': '20',
+    },
+    's7xebw09': {
+      'en': 'Inactive',
+      'id': 'Tidak aktif',
+      'ms': 'Tidak aktif',
+      'pt': 'Inativos',
+    },
+    'w5uf0wv5': {
+      'en': '20',
+      'id': '20',
+      'ms': '20',
+      'pt': '20',
+    },
+    '4xv5ljk5': {
+      'en': 'Animals',
+      'id': 'Hewan',
+      'ms': 'Haiwan',
+      'pt': 'animais',
+    },
+    '3ourv2w9': {
+      'en': '__',
+      'id': '__',
+      'ms': '__',
+      'pt': '__',
+    },
+  },
+  // Main_profilePage
+  {
+    'qrxn5crt': {
+      'en': 'My Profile',
+      'id': 'Profil saya',
+      'ms': 'Profil saya',
+      'pt': 'Meu perfil',
+    },
+    'v1hh7jlp': {
+      'en': 'Switch to Dark Mode',
+      'id': 'Beralih ke Mode Gelap',
+      'ms': 'Tukar kepada Mod Gelap',
+      'pt': 'Alternar para o modo escuro',
+    },
+    'sh7q15l6': {
+      'en': 'Switch to Light Mode',
+      'id': 'Beralih ke Mode Cahaya',
+      'ms': 'Tukar kepada Mod Cahaya',
+      'pt': 'Alternar para o modo claro',
+    },
+    'fyxsf6vn': {
+      'en': 'Account Settings',
+      'id': 'Pengaturan akun',
+      'ms': 'Tetapan Akaun',
+      'pt': 'Configurações de Conta',
+    },
+    'h43llaan': {
+      'en': 'Change Password',
+      'id': 'Ganti kata sandi',
+      'ms': 'Tukar kata laluan',
+      'pt': 'Alterar a senha',
+    },
+    'b1lw0hfu': {
+      'en': 'Edit Profile',
+      'id': 'Sunting profil',
+      'ms': 'Sunting profil',
+      'pt': 'Editar Perfil',
+    },
+    'abqf147c': {
+      'en': 'Log Out',
+      'id': 'Keluar',
+      'ms': 'Log keluar',
+      'pt': 'Sair',
+    },
+    'o3dp9tss': {
+      'en': '__',
+      'id': '__',
+      'ms': '__',
+      'pt': '__',
+    },
+  },
+  // Main_measurements
+  {
+    'v8uya9kq': {
+      'en': 'Measurements',
+      'id': 'Pengukuran',
+      'ms': 'Pengukuran',
+      'pt': 'Medidas',
+    },
+    '03r1gsqr': {
+      'en': 'All',
+      'id': 'Semua',
+      'ms': 'Semua',
+      'pt': 'Todas',
+    },
+    'h9a0s3vp': {
+      'en': 'June Williamson',
+      'id': 'Juni Williamson',
+      'ms': 'June Williamson',
+      'pt': 'June Williamson',
+    },
+    '4zchoki9': {
+      'en': 'Sr. Account Manager',
+      'id': 'Manajer Akun Sr',
+      'ms': 'Tuan Pengurus Akaun',
+      'pt': 'Gerente de contas sênior',
+    },
+    'fwx5wfry': {
+      'en': 'HealthAi',
+      'id': 'KesehatanAi',
+      'ms': 'KesihatanAi',
+      'pt': 'HealthAi',
+    },
+    'zgr4urqv': {
+      'en': 'Active',
+      'id': 'Aktif',
+      'ms': 'Aktif',
+      'pt': 'Ativas',
+    },
+    'z6vhpkfa': {
+      'en': 'James Wiseman',
+      'id': 'James Wisman',
+      'ms': 'James Wiseman',
+      'pt': 'James Wiseman',
+    },
+    'wk61zfbe': {
+      'en': 'Account Manager',
+      'id': 'Manajer Akuntansi',
+      'ms': 'Pengurus akaun',
+      'pt': 'Gerente de contas',
+    },
+    'z3v80ljl': {
+      'en': 'HealthAi',
+      'id': 'KesehatanAi',
+      'ms': 'KesihatanAi',
+      'pt': 'HealthAi',
+    },
+    '7a9y8b2r': {
+      'en': 'Inactive',
+      'id': 'Tidak aktif',
+      'ms': 'Tidak aktif',
+      'pt': 'Inativas',
+    },
+    'bn4znl0y': {
       'en': 'Randy Alcorn',
       'id': 'Randy Alcorn',
       'ms': 'Randy Alcorn',
       'pt': 'Randy Alcorn',
     },
-    'a7nc1dt4': {
+    'r6z6wvgv': {
       'en': 'Head of Procurement',
       'id': 'Kepala Pengadaan',
       'ms': 'Ketua Perolehan',
       'pt': 'Chefe de Compras',
     },
-    '2f2nxucv': {
+    'tuv7iex9': {
       'en': 'ACME Co.',
       'id': 'ACME Co.',
       'ms': 'ACME Co.',
       'pt': 'ACME Co.',
     },
-    'vcm4fijj': {
-      'en': 'Next Steps',
-      'id': 'Langkah selanjutnya',
-      'ms': 'Langkah seterusnya',
-      'pt': 'Próximos passos',
+    'n5lg44n8': {
+      'en': 'Elena Williams',
+      'id': 'Elena Williams',
+      'ms': 'Elena Williams',
+      'pt': 'Elena Williams',
     },
-    '60n0fqw5': {
+    '2fpbiwrp': {
+      'en': 'Head of Product & Innovation',
+      'id': 'Kepala Produk & Inovasi',
+      'ms': 'Ketua Produk & Inovasi',
+      'pt': 'Head de Produto e Inovação',
+    },
+    'csosj0dl': {
+      'en': 'Robin HQ',
+      'id': 'Markas Besar Robin',
+      'ms': 'Robin HQ',
+      'pt': 'Robin HQ',
+    },
+    'cdong7zk': {
+      'en': 'Measurements',
+      'id': 'Pengukuran',
+      'ms': 'Pengukuran',
+      'pt': 'Medidas',
+    },
+    '26zyhyb8': {
+      'en': '__',
+      'id': '__',
+      'ms': '__',
+      'pt': '__',
+    },
+  },
+  // Main_Locals
+  {
+    '2wveoe3e': {
+      'en': 'Locals',
+      'id': 'Penduduk setempat',
+      'ms': 'Orang tempatan',
+      'pt': 'Locais',
+    },
+    'r3xsq2wl': {
+      'en': 'All',
+      'id': 'Semua',
+      'ms': 'Semua',
+      'pt': 'Todos',
+    },
+    '1pk3815e': {
+      'en': '20',
+      'id': '20',
+      'ms': '20',
+      'pt': '20',
+    },
+    '38018wqk': {
+      'en': 'Actives',
+      'id': 'Aktif',
+      'ms': 'Aktif',
+      'pt': 'Ativos',
+    },
+    'g3lokked': {
+      'en': '20',
+      'id': '20',
+      'ms': '20',
+      'pt': '20',
+    },
+    '1xcom3zz': {
+      'en': 'Inactives',
+      'id': 'Tidak aktif',
+      'ms': 'Tidak aktif',
+      'pt': 'Inativos',
+    },
+    't8zsz239': {
+      'en': '20',
+      'id': '20',
+      'ms': '20',
+      'pt': '20',
+    },
+    'um59l5by': {
+      'en': 'Locals',
+      'id': 'Penduduk setempat',
+      'ms': 'Orang tempatan',
+      'pt': 'Locais',
+    },
+    'wtc64zzu': {
+      'en': '__',
+      'id': '__',
+      'ms': '__',
+      'pt': '__',
+    },
+  },
+  // localDetails
+  {
+    'jvf45pu2': {
+      'en': 'Local Name',
+      'id': 'Nama Lokal',
+      'ms': 'Nama Tempatan',
+      'pt': 'Nome do Local',
+    },
+    'ev2b8emn': {
+      'en': 'Local Description',
+      'id': 'Deskripsi Lokal',
+      'ms': 'Penerangan Tempatan',
+      'pt': 'Descrição local',
+    },
+    'lb8euro4': {
+      'en': 'measurements',
+      'id': 'Pengukuran diambil',
+      'ms': 'Pengukuran diambil',
+      'pt': 'Medidas tomadas',
+    },
+    'uc8qci71': {
+      'en': 'Contract Details',
+      'id': 'Detail Kontrak',
+      'ms': 'Butiran Kontrak',
+      'pt': 'Detalhes do contrato',
+    },
+    't87n59x9': {
       'en':
-          'Send the information below. And we will send an email with details to the customer and allow you to manage it in your dashboard.',
+          'Additional Details around this contract and who is working on it in this card!',
       'id':
-          'Kirim informasi di bawah ini. Dan kami akan mengirimkan email dengan detail ke pelanggan dan mengizinkan Anda untuk mengelolanya di dasbor Anda.',
+          'Detail Tambahan seputar kontrak ini dan siapa yang mengerjakannya di kartu ini!',
       'ms':
-          'Hantar maklumat di bawah. Dan kami akan menghantar e-mel dengan butiran kepada pelanggan dan membenarkan anda mengurusnya dalam papan pemuka anda.',
+          'Butiran Tambahan mengenai kontrak ini dan siapa yang mengusahakannya dalam kad ini!',
       'pt':
-          'Envie as informações abaixo. E enviaremos um e-mail com detalhes para o cliente e permitiremos que você gerencie em seu painel.',
+          'Detalhes adicionais sobre este contrato e quem está trabalhando nele neste cartão!',
     },
-    'e408bhw6': {
-      'en': 'Send Information',
-      'id': 'Kirim Informasi',
-      'ms': 'Hantar Maklumat',
-      'pt': 'Envie informação',
+    'd59tz673': {
+      'en': 'Mark as Complete',
+      'id': 'Tandai sebagai Selesai',
+      'ms': 'Tandai sebagai Selesai',
+      'pt': 'Marcar como Completo',
     },
-    'wo1onxhi': {
-      'en': 'Never Mind',
-      'id': 'Sudahlah',
-      'ms': 'Tidak mengapa',
-      'pt': 'Deixa para lá',
+    'vq6l3c2u': {
+      'en': 'Home',
+      'id': 'Rumah',
+      'ms': 'Rumah',
+      'pt': 'Lar',
     },
   },
   // modal_Welcome
@@ -1333,10 +914,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Parabéns!',
     },
     'fmzceh74': {
-      'en': 'A new contract has been generated for:',
-      'id': 'Kontrak baru telah dibuat untuk:',
-      'ms': 'Kontrak baru telah dijana untuk:',
-      'pt': 'Um novo contrato foi gerado para:',
+      'en': 'A new activit has been finality.',
+      'id': 'Sebuah aktivitas baru telah menjadi finalitas.',
+      'ms': 'Satu aktiviti baru telah muktamad.',
+      'pt': 'Uma nova atividade foi finalizada.',
     },
     'g8q2u55w': {
       'en': 'Continue',
@@ -1348,32 +929,57 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // modal_Message
   {
     'wa4vkne2': {
-      'en': 'Congratulations!',
-      'id': 'Selamat!',
-      'ms': 'tahniah!',
-      'pt': 'Parabéns!',
+      'en': 'Atention!',
+      'id': 'Perhatian!',
+      'ms': 'Perhatian!',
+      'pt': 'Atenção!',
     },
     '3hf2ocig': {
-      'en':
-          'Now that a contract has been generated for this customer please contact them with the date you will send the signed agreement.',
-      'id':
-          'Sekarang kontrak telah dibuat untuk pelanggan ini, harap hubungi mereka dengan tanggal Anda akan mengirimkan perjanjian yang ditandatangani.',
-      'ms':
-          'Memandangkan kontrak telah dijana untuk pelanggan ini, sila hubungi mereka dengan tarikh anda akan menghantar perjanjian yang ditandatangani.',
-      'pt':
-          'Agora que um contrato foi gerado para este cliente, entre em contato com ele informando a data em que você enviará o contrato assinado.',
+      'en': 'You realy will delete this item?',
+      'id': 'Anda benar-benar akan menghapus item ini?',
+      'ms': 'Anda benar-benar akan memadamkan item ini?',
+      'pt': 'Você realmente vai deletar este item?',
     },
     'q0jvi1lp': {
-      'en': 'Okay',
-      'id': 'Oke',
-      'ms': 'baik',
-      'pt': 'OK',
+      'en': 'Yes',
+      'id': 'Ya',
+      'ms': 'ya',
+      'pt': 'Sim',
     },
     'oo4y13nf': {
-      'en': 'Continue',
-      'id': 'Melanjutkan',
-      'ms': 'teruskan',
-      'pt': 'Continuar',
+      'en': 'No',
+      'id': 'TIDAK',
+      'ms': 'Tidak',
+      'pt': 'Não',
+    },
+  },
+  // editProfilePhoto
+  {
+    '6bnefz1c': {
+      'en': 'Change Photo',
+      'id': '',
+      'ms': '',
+      'pt': 'Mudar foto',
+    },
+    'yaxe7q8v': {
+      'en':
+          'Upload a new photo below in order to change your avatar seen by others.',
+      'id': '',
+      'ms': '',
+      'pt':
+          'Carregue uma nova foto abaixo para alterar seu avatar visto por outras pessoas.',
+    },
+    're4x0sz7': {
+      'en': 'Upload Image',
+      'id': '',
+      'ms': '',
+      'pt': 'Enviar Imagem',
+    },
+    'sr54fsk6': {
+      'en': 'Save Changes',
+      'id': '',
+      'ms': '',
+      'pt': 'Salvar alterações',
     },
   },
   // createComment
@@ -1418,22 +1024,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Painel',
     },
     't5c3aiuy': {
-      'en': 'My Team',
-      'id': 'Kelompok ku',
-      'ms': 'Pasukan saya',
-      'pt': 'Meu time',
+      'en': 'Measurements',
+      'id': 'Pengukuran',
+      'ms': 'Pengukuran',
+      'pt': 'Medidas',
     },
     'nkz3c58a': {
-      'en': 'Customers',
-      'id': 'Pelanggan',
-      'ms': 'Pelanggan',
-      'pt': 'Clientes',
+      'en': 'Animals',
+      'id': 'Hewan',
+      'ms': 'Haiwan',
+      'pt': 'Animais',
     },
     '1mkyyjwj': {
-      'en': 'Contracts',
-      'id': 'Kontrak',
-      'ms': 'Kontrak',
-      'pt': 'Contratos',
+      'en': 'Locals',
+      'id': 'Penduduk setempat',
+      'ms': 'Orang tempatan',
+      'pt': 'Locais',
     },
     'eg79coc6': {
       'en': 'Profile',
@@ -1457,22 +1063,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Painel',
     },
     '5s0d776i': {
-      'en': 'My Team',
-      'id': 'Kelompok ku',
-      'ms': 'Pasukan saya',
-      'pt': 'Meu time',
+      'en': 'Measurements',
+      'id': 'Pengukuran',
+      'ms': 'Pengukuran',
+      'pt': 'Medidas',
     },
     'lbojdpxg': {
-      'en': 'Customers',
-      'id': 'Pelanggan',
-      'ms': 'Pelanggan',
-      'pt': 'Clientes',
+      'en': 'Animals',
+      'id': 'Hewan',
+      'ms': 'Haiwan',
+      'pt': 'Animais',
     },
     '9pjba90p': {
-      'en': 'Contracts',
-      'id': 'Kontrak',
-      'ms': 'Kontrak',
-      'pt': 'Contratos',
+      'en': 'Locals',
+      'id': 'Penduduk setempat',
+      'ms': 'Orang tempatan',
+      'pt': 'Locais',
     },
     '01nu9cy0': {
       'en': 'Profile',
@@ -1502,28 +1108,40 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Links Rápidos',
     },
     'gckukxjv': {
-      'en': 'Find Contract',
-      'id': 'Temukan Kontrak',
-      'ms': 'Cari Kontrak',
-      'pt': 'Localizar contrato',
+      'en': 'Find Local',
+      'id': 'Temukan Lokal',
+      'ms': 'Cari Tempatan',
+      'pt': 'Encontrar local',
+    },
+    'x6qiocjw': {
+      'en': 'Find Measurement',
+      'id': 'Temukan Pengukuran',
+      'ms': 'Cari Pengukuran',
+      'pt': 'Encontrar medição',
     },
     'zsq8vj02': {
-      'en': 'Find Customer',
-      'id': 'Temukan Pelanggan',
-      'ms': 'Cari Pelanggan',
-      'pt': 'Encontrar cliente',
+      'en': 'Find Animal',
+      'id': 'Temukan Hewan',
+      'ms': 'Cari Haiwan',
+      'pt': 'Encontrar animal',
     },
     'iqxwv326': {
-      'en': 'New Contract',
-      'id': 'Kontrak baru',
-      'ms': 'Kontrak Baru',
-      'pt': 'Novo Contrato',
+      'en': 'New Animal',
+      'id': 'Hewan Baru',
+      'ms': 'Haiwan Baru',
+      'pt': 'Novo animal',
+    },
+    '2w3eyztm': {
+      'en': 'New Measurement',
+      'id': 'Pengukuran Baru',
+      'ms': 'Pengukuran Baru',
+      'pt': 'Nova Medição',
     },
     's60yfg0g': {
-      'en': 'New Customer',
-      'id': 'Pelanggan baru',
-      'ms': 'Pelanggan baru',
-      'pt': 'Novo cliente',
+      'en': 'New Local',
+      'id': 'Lokal Baru',
+      'ms': 'Tempatan Baharu',
+      'pt': 'Novo local',
     },
     'lwrh59bb': {
       'en': 'Recent Searches',
@@ -1544,29 +1162,153 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Estilos de Harry',
     },
   },
-  // editProfilePhoto
+  // createLocal
   {
-    '6bnefz1c': {
-      'en': 'Change Photo',
+    'hijcw5k2': {
+      'en': 'New Local',
+      'id': 'Lokal Baru',
+      'ms': 'Tempatan Baharu',
+      'pt': 'Novo Local',
+    },
+    'ke0t4kdm': {
+      'en': 'Use the form below to create localion informations.',
+      'id': 'Gunakan formulir di bawah ini untuk membuat informasi lokal.',
+      'ms': 'Gunakan borang di bawah untuk membuat maklumat setempat.',
+      'pt': 'Use o formulário abaixo para criar informações de localização.',
+    },
+    '6gqb3x8o': {
+      'en': 'Enter the name of your location here...',
+      'id': 'Masukkan nama lokasi Anda di sini...',
+      'ms': 'Masukkan nama lokasi anda di sini...',
+      'pt': 'Digite o nome do seu local aqui...',
+    },
+    'btu84ipb': {
+      'en': '',
       'id': '',
       'ms': '',
-      'pt': 'Mudar foto',
+      'pt': '',
     },
-    'yaxe7q8v': {
-      'en':
-          'Upload a new photo below in order to change your avatar seen by others.',
+    'k0mq7usa': {
+      'en': 'Enter the type of your location here...',
+      'id': 'Masukkan jenis lokasi Anda di sini...',
+      'ms': 'Masukkan jenis lokasi anda di sini...',
+      'pt': 'Digite o tipo de sua localização aqui...',
+    },
+    'hr0y4wav': {
+      'en': 'Enter the description of your location here...',
+      'id': 'Masukkan deskripsi lokasi Anda di sini...',
+      'ms': 'Masukkan perihalan lokasi anda di sini...',
+      'pt': 'Digite a descrição da sua localização aqui...',
+    },
+    '85w7o0o5': {
+      'en': 'Upload a new photo below.',
+      'id': 'Unggah foto baru di bawah ini.',
+      'ms': 'Muat naik foto baharu di bawah.',
+      'pt': 'Carregue uma nova foto abaixo.',
+    },
+    'akch3obg': {
+      'en': 'Save Changes',
       'id': '',
       'ms': '',
-      'pt':
-          'Carregue uma nova foto abaixo para alterar seu avatar visto por outras pessoas.',
+      'pt': 'Salvar alterações',
     },
-    're4x0sz7': {
-      'en': 'Upload Image',
+  },
+  // createAnimal
+  {
+    '8z956lho': {
+      'en': 'New Animal',
+      'id': 'Hewan Baru',
+      'ms': 'Haiwan Baru',
+      'pt': 'Novo animal',
+    },
+    'id5r9htr': {
+      'en': 'Use the form below to create animal informations.',
+      'id': 'Gunakan formulir di bawah ini untuk membuat informasi hewan.',
+      'ms': 'Gunakan borang di bawah untuk mencipta maklumat haiwan.',
+      'pt': 'Use o formulário abaixo para criar informações sobre animais.',
+    },
+    'd7kxwx6w': {
+      'en': 'Enter the name of your animal here...',
+      'id': 'Masukkan nama hewan Anda di sini...',
+      'ms': 'Masukkan nama haiwan anda di sini...',
+      'pt': 'Digite aqui o nome do seu animal...',
+    },
+    'fb2vuj5i': {
+      'en': '',
       'id': '',
       'ms': '',
-      'pt': 'Enviar Imagem',
+      'pt': '',
     },
-    'sr54fsk6': {
+    'tqwg4ljg': {
+      'en': 'Enter the type of your animal here...',
+      'id': 'Masukkan jenis hewan Anda di sini...',
+      'ms': 'Masukkan jenis haiwan anda di sini...',
+      'pt': 'Digite aqui o tipo do seu animal...',
+    },
+    'jizrw648': {
+      'en': 'Enter the description of your animal here...',
+      'id': 'Masukkan deskripsi hewan Anda di sini...',
+      'ms': 'Masukkan perihalan haiwan anda di sini...',
+      'pt': 'Digite aqui a descrição do seu animal...',
+    },
+    '65gyie3b': {
+      'en': 'Upload a new photo below.',
+      'id': 'Unggah foto baru di bawah ini.',
+      'ms': 'Muat naik foto baharu di bawah.',
+      'pt': 'Carregue uma nova foto abaixo.',
+    },
+    'siso0l3b': {
+      'en': 'Save Changes',
+      'id': '',
+      'ms': '',
+      'pt': 'Salvar alterações',
+    },
+  },
+  // createMeasurements
+  {
+    'mgig2f53': {
+      'en': 'New Measure',
+      'id': 'Ukuran Baru',
+      'ms': 'Ukuran Baharu',
+      'pt': 'Nova Medida',
+    },
+    '49dtg7an': {
+      'en': 'Use the form below to create localion informations.',
+      'id': 'Gunakan formulir di bawah ini untuk membuat informasi lokal.',
+      'ms': 'Gunakan borang di bawah untuk membuat maklumat setempat.',
+      'pt': 'Use o formulário abaixo para criar informações de localização.',
+    },
+    '6mp8cgav': {
+      'en': 'Enter the name of your location here...',
+      'id': 'Masukkan nama lokasi Anda di sini...',
+      'ms': 'Masukkan nama lokasi anda di sini...',
+      'pt': 'Digite o nome do seu local aqui...',
+    },
+    'fl8cz2zh': {
+      'en': '',
+      'id': '',
+      'ms': '',
+      'pt': '',
+    },
+    'f447xw3n': {
+      'en': 'Enter the type of your location here...',
+      'id': 'Masukkan jenis lokasi Anda di sini...',
+      'ms': 'Masukkan jenis lokasi anda di sini...',
+      'pt': 'Digite o tipo de sua localização aqui...',
+    },
+    'gf83jvm1': {
+      'en': 'Enter the description of your location here...',
+      'id': 'Masukkan deskripsi lokasi Anda di sini...',
+      'ms': 'Masukkan perihalan lokasi anda di sini...',
+      'pt': 'Digite a descrição da sua localização aqui...',
+    },
+    'z8sv5hw3': {
+      'en': 'Upload a new photo below.',
+      'id': 'Unggah foto baru di bawah ini.',
+      'ms': 'Muat naik foto baharu di bawah.',
+      'pt': 'Carregue uma nova foto abaixo.',
+    },
+    'uusyek4r': {
       'en': 'Save Changes',
       'id': '',
       'ms': '',

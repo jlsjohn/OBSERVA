@@ -4,16 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
-import '../flutter_flow_theme.dart';
 import '/backend/backend.dart';
 
-import '/backend/supabase/supabase.dart';
 import '../../auth/base_auth_user_provider.dart';
 
-import '../../index.dart';
-import '../../main.dart';
-import '../lat_lng.dart';
-import '../place.dart';
+import '/index.dart';
+import '/main.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/lat_lng.dart';
+import '/flutter_flow/place.dart';
+import '/flutter_flow/flutter_flow_util.dart';
 import 'serialization_util.dart';
 
 export 'package:go_router/go_router.dart';
@@ -110,42 +110,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   : HomeWidget(),
             ),
             FFRoute(
-              name: 'Main_animalList',
-              path: 'mainAnimalList',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'Main_animalList')
-                  : MainAnimalListWidget(),
-            ),
-            FFRoute(
-              name: 'measurements',
-              path: 'measurements',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'measurements')
-                  : MeasurementsWidget(),
-            ),
-            FFRoute(
-              name: 'Main_Locals',
-              path: 'mainLocals',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'Main_Locals')
-                  : MainLocalsWidget(),
-            ),
-            FFRoute(
-              name: 'Main_profilePage',
-              path: 'mainProfilePage',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'Main_profilePage')
-                  : MainProfilePageWidget(),
-            ),
-            FFRoute(
               name: 'animalDetails',
               path: 'animalDetails',
-              builder: (context, params) => AnimalDetailsWidget(),
-            ),
-            FFRoute(
-              name: 'localDetails',
-              path: 'localDetails',
-              builder: (context, params) => LocalDetailsWidget(),
+              asyncParams: {
+                'animalDocument':
+                    getDoc(['animals'], AnimalsRecord.fromSnapshot),
+              },
+              builder: (context, params) => AnimalDetailsWidget(
+                animalDocument:
+                    params.getParam('animalDocument', ParamType.Document),
+              ),
             ),
             FFRoute(
               name: 'searchPage',
@@ -156,6 +130,45 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'editProfile',
               path: 'editProfile',
               builder: (context, params) => EditProfileWidget(),
+            ),
+            FFRoute(
+              name: 'Main_animalList',
+              path: 'mainAnimalList',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'Main_animalList')
+                  : MainAnimalListWidget(),
+            ),
+            FFRoute(
+              name: 'Main_profilePage',
+              path: 'mainProfilePage',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'Main_profilePage')
+                  : MainProfilePageWidget(),
+            ),
+            FFRoute(
+              name: 'Main_measurements',
+              path: 'mainMeasurements',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'Main_measurements')
+                  : MainMeasurementsWidget(),
+            ),
+            FFRoute(
+              name: 'Main_Locals',
+              path: 'mainLocals',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'Main_Locals')
+                  : MainLocalsWidget(),
+            ),
+            FFRoute(
+              name: 'localDetails',
+              path: 'localDetails',
+              asyncParams: {
+                'documentPage': getDoc(['cities'], CitiesRecord.fromSnapshot),
+              },
+              builder: (context, params) => LocalDetailsWidget(
+                documentPage:
+                    params.getParam('documentPage', ParamType.Document),
+              ),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),

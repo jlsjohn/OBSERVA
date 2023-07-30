@@ -53,6 +53,8 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
 
   @override
   Widget build(BuildContext context) {
+    context.watch<FFAppState>();
+
     return Container(
       width: double.infinity,
       height: 110.0,
@@ -94,7 +96,11 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    widget.iconOne!,
+                    Icon(
+                      Icons.dashboard_rounded,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 28.0,
+                    ),
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
@@ -124,7 +130,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                 highlightColor: Colors.transparent,
                 onTap: () async {
                   context.pushNamed(
-                    'measurements',
+                    'Main_measurements',
                     extra: <String, dynamic>{
                       kTransitionInfoKey: TransitionInfo(
                         hasTransition: true,
@@ -138,13 +144,17 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    widget.iconFive!,
+                    Icon(
+                      Icons.thermostat,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 28.0,
+                    ),
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          't5c3aiuy' /* My Team */,
+                          't5c3aiuy' /* Measurements */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily:
@@ -182,13 +192,17 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    widget.iconTwo!,
+                    Icon(
+                      Icons.pets_rounded,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 28.0,
+                    ),
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'nkz3c58a' /* Customers */,
+                          'nkz3c58a' /* Animals */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily:
@@ -226,13 +240,17 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    widget.iconThree!,
+                    Icon(
+                      Icons.home_work_rounded,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 28.0,
+                    ),
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          '1mkyyjwj' /* Contracts */,
+                          '1mkyyjwj' /* Locals */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily:
@@ -270,7 +288,11 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    widget.iconFour!,
+                    Icon(
+                      Icons.account_circle_rounded,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 28.0,
+                    ),
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),

@@ -44,6 +44,8 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
 
   @override
   Widget build(BuildContext context) {
+    context.watch<FFAppState>();
+
     return StreamBuilder<List<UsersRecord>>(
       stream: queryUsersRecord(),
       builder: (context, snapshot) {

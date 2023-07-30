@@ -91,33 +91,6 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
         ),
       ],
     ),
-    'imageOnPageLoadAnimation': AnimationInfo(
-      trigger: AnimationTrigger.onPageLoad,
-      effects: [
-        VisibilityEffect(duration: 1.ms),
-        FadeEffect(
-          curve: Curves.easeInOut,
-          delay: 0.ms,
-          duration: 600.ms,
-          begin: 0.0,
-          end: 1.0,
-        ),
-        MoveEffect(
-          curve: Curves.easeInOut,
-          delay: 0.ms,
-          duration: 600.ms,
-          begin: Offset(0.0, 50.0),
-          end: Offset(0.0, 0.0),
-        ),
-        ScaleEffect(
-          curve: Curves.easeInOut,
-          delay: 0.ms,
-          duration: 600.ms,
-          begin: Offset(0.8, 0.8),
-          end: Offset(1.0, 1.0),
-        ),
-      ],
-    ),
     'buttonOnPageLoadAnimation': AnimationInfo(
       trigger: AnimationTrigger.onPageLoad,
       effects: [
@@ -170,6 +143,8 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
 
   @override
   Widget build(BuildContext context) {
+    context.watch<FFAppState>();
+
     return ClipRRect(
       child: BackdropFilter(
         filter: ImageFilter.blur(
@@ -250,25 +225,11 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
                               0.0, 8.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'fmzceh74' /* A new contract has been genera... */,
+                              'fmzceh74' /* A new activit has been finalit... */,
                             ),
                             style: FlutterFlowTheme.of(context).bodySmall,
                           ).animateOnPageLoad(
                               animationsMap['textOnPageLoadAnimation2']!),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 16.0, 0.0, 16.0),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8.0),
-                            child: Image.asset(
-                              'assets/images/congrats@2x.png',
-                              width: 300.0,
-                              height: 200.0,
-                              fit: BoxFit.cover,
-                            ),
-                          ).animateOnPageLoad(
-                              animationsMap['imageOnPageLoadAnimation']!),
                         ),
                         Row(
                           mainAxisSize: MainAxisSize.max,
