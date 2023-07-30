@@ -74,6 +74,8 @@ class _WebNavWidgetState extends State<WebNavWidget> {
 
   @override
   Widget build(BuildContext context) {
+    context.watch<FFAppState>();
+
     return Padding(
       padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 1.0, 0.0),
       child: Container(
@@ -207,7 +209,11 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                         mainAxisSize: MainAxisSize.max,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          widget.iconOne!,
+                          Icon(
+                            Icons.dashboard_rounded,
+                            color: FlutterFlowTheme.of(context).secondaryText,
+                            size: 28.0,
+                          ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 12.0, 0.0, 0.0, 0.0),
@@ -243,7 +249,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                   highlightColor: Colors.transparent,
                   onTap: () async {
                     context.pushNamed(
-                      'measurements',
+                      'Main_measurements',
                       extra: <String, dynamic>{
                         kTransitionInfoKey: TransitionInfo(
                           hasTransition: true,
@@ -266,13 +272,17 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                         mainAxisSize: MainAxisSize.max,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          widget.iconFive!,
+                          Icon(
+                            Icons.thermostat_rounded,
+                            color: FlutterFlowTheme.of(context).secondaryText,
+                            size: 28.0,
+                          ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                '5s0d776i' /* My Team */,
+                                '5s0d776i' /* Measurements */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .titleSmall
@@ -325,13 +335,17 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                         mainAxisSize: MainAxisSize.max,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          widget.iconTwo!,
+                          Icon(
+                            Icons.pets_rounded,
+                            color: FlutterFlowTheme.of(context).secondaryText,
+                            size: 28.0,
+                          ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'lbojdpxg' /* Customers */,
+                                'lbojdpxg' /* Animals */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .titleSmall
@@ -384,13 +398,17 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                         mainAxisSize: MainAxisSize.max,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          widget.iconThree!,
+                          Icon(
+                            Icons.home_work_rounded,
+                            color: FlutterFlowTheme.of(context).secondaryText,
+                            size: 28.0,
+                          ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                '9pjba90p' /* Contracts */,
+                                '9pjba90p' /* Locals */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .titleSmall
@@ -443,7 +461,11 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                         mainAxisSize: MainAxisSize.max,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          widget.iconFour!,
+                          Icon(
+                            Icons.account_circle_rounded,
+                            color: FlutterFlowTheme.of(context).secondaryText,
+                            size: 28.0,
+                          ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 12.0, 0.0, 0.0, 0.0),

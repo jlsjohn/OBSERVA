@@ -41,12 +41,18 @@ class MeasurementRecord extends FirestoreRecord {
   DateTime? get createdAt => _createdAt;
   bool hasCreatedAt() => _createdAt != null;
 
+  // "isActive" field.
+  bool? _isActive;
+  bool get isActive => _isActive ?? false;
+  bool hasIsActive() => _isActive != null;
+
   void _initializeFields() {
     _name = snapshotData['name'] as String?;
     _description = snapshotData['description'] as String?;
     _image = snapshotData['image'] as String?;
     _unit = snapshotData['unit'] as String?;
     _createdAt = snapshotData['created_at'] as DateTime?;
+    _isActive = snapshotData['isActive'] as bool?;
   }
 
   static CollectionReference get collection =>
@@ -89,6 +95,7 @@ Map<String, dynamic> createMeasurementRecordData({
   String? image,
   String? unit,
   DateTime? createdAt,
+  bool? isActive,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -97,6 +104,7 @@ Map<String, dynamic> createMeasurementRecordData({
       'image': image,
       'unit': unit,
       'created_at': createdAt,
+      'isActive': isActive,
     }.withoutNulls,
   );
 
@@ -112,12 +120,13 @@ class MeasurementRecordDocumentEquality implements Equality<MeasurementRecord> {
         e1?.description == e2?.description &&
         e1?.image == e2?.image &&
         e1?.unit == e2?.unit &&
-        e1?.createdAt == e2?.createdAt;
+        e1?.createdAt == e2?.createdAt &&
+        e1?.isActive == e2?.isActive;
   }
 
   @override
-  int hash(MeasurementRecord? e) => const ListEquality()
-      .hash([e?.name, e?.description, e?.image, e?.unit, e?.createdAt]);
+  int hash(MeasurementRecord? e) => const ListEquality().hash(
+      [e?.name, e?.description, e?.image, e?.unit, e?.createdAt, e?.isActive]);
 
   @override
   bool isValidKey(Object? o) => o is MeasurementRecord;

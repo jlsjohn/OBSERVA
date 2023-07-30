@@ -1,3 +1,4 @@
+import 'package:provider/provider.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +8,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
 
-import '/backend/supabase/supabase.dart';
 import 'backend/firebase/firebase_config.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
@@ -22,12 +22,16 @@ void main() async {
   usePathUrlStrategy();
   await initFirebase();
 
-  await SupaFlow.initialize();
-
   await FlutterFlowTheme.initialize();
   await FFLocalizations.initialize();
 
-  runApp(MyApp());
+  final appState = FFAppState(); // Initialize FFAppState
+  await appState.initializePersistedState();
+
+  runApp(ChangeNotifierProvider(
+    create: (context) => appState,
+    child: MyApp(),
+  ));
 }
 
 class MyApp extends StatefulWidget {
@@ -59,7 +63,7 @@ class _MyAppState extends State<MyApp> {
       ..listen((user) => _appStateNotifier.update(user));
     jwtTokenStream.listen((_) {});
     Future.delayed(
-      Duration(seconds: 1),
+      Duration(milliseconds: 1000),
       () => _appStateNotifier.stopShowingSplashImage(),
     );
   }
@@ -133,9 +137,9 @@ class _NavBarPageState extends State<NavBarPage> {
     final tabs = {
       'Home': HomeWidget(),
       'Main_animalList': MainAnimalListWidget(),
-      'measurements': MeasurementsWidget(),
-      'Main_Locals': MainLocalsWidget(),
       'Main_profilePage': MainProfilePageWidget(),
+      'Main_measurements': MainMeasurementsWidget(),
+      'Main_Locals': MainLocalsWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -190,34 +194,6 @@ class _NavBarPageState extends State<NavBarPage> {
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.stream,
-                size: 24.0,
-              ),
-              activeIcon: Icon(
-                Icons.stream,
-                size: 24.0,
-              ),
-              label: FFLocalizations.of(context).getText(
-                'smtxdnbn' /* __ */,
-              ),
-              tooltip: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.home_work_outlined,
-                size: 24.0,
-              ),
-              activeIcon: Icon(
-                Icons.home_work_rounded,
-                size: 32.0,
-              ),
-              label: FFLocalizations.of(context).getText(
-                'j08eiorc' /* __ */,
-              ),
-              tooltip: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
                 Icons.account_circle_outlined,
                 size: 24.0,
               ),
@@ -227,6 +203,34 @@ class _NavBarPageState extends State<NavBarPage> {
               ),
               label: FFLocalizations.of(context).getText(
                 'o3dp9tss' /* __ */,
+              ),
+              tooltip: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.supervised_user_circle_outlined,
+                size: 24.0,
+              ),
+              activeIcon: Icon(
+                Icons.supervised_user_circle_sharp,
+                size: 32.0,
+              ),
+              label: FFLocalizations.of(context).getText(
+                '26zyhyb8' /* __ */,
+              ),
+              tooltip: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.supervised_user_circle_outlined,
+                size: 24.0,
+              ),
+              activeIcon: Icon(
+                Icons.supervised_user_circle_sharp,
+                size: 32.0,
+              ),
+              label: FFLocalizations.of(context).getText(
+                'wtc64zzu' /* __ */,
               ),
               tooltip: '',
             )

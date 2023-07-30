@@ -41,20 +41,30 @@ class CitiesRecord extends FirestoreRecord {
   int get cityPopulation => _cityPopulation ?? 0;
   bool hasCityPopulation() => _cityPopulation != null;
 
-  // "index" field.
-  int? _index;
-  int get index => _index ?? 0;
-  bool hasIndex() => _index != null;
+  // "isActive" field.
+  bool? _isActive;
+  bool get isActive => _isActive ?? false;
+  bool hasIsActive() => _isActive != null;
 
-  // "userLiked" field.
-  List<DocumentReference>? _userLiked;
-  List<DocumentReference> get userLiked => _userLiked ?? const [];
-  bool hasUserLiked() => _userLiked != null;
+  // "cityType" field.
+  String? _cityType;
+  String get cityType => _cityType ?? '';
+  bool hasCityType() => _cityType != null;
 
-  // "userDisliked" field.
-  List<DocumentReference>? _userDisliked;
-  List<DocumentReference> get userDisliked => _userDisliked ?? const [];
-  bool hasUserDisliked() => _userDisliked != null;
+  // "uid" field.
+  String? _uid;
+  String get uid => _uid ?? '';
+  bool hasUid() => _uid != null;
+
+  // "created_time" field.
+  DateTime? _createdTime;
+  DateTime? get createdTime => _createdTime;
+  bool hasCreatedTime() => _createdTime != null;
+
+  // "created_by" field.
+  DocumentReference? _createdBy;
+  DocumentReference? get createdBy => _createdBy;
+  bool hasCreatedBy() => _createdBy != null;
 
   void _initializeFields() {
     _cityPhoto = snapshotData['cityPhoto'] as String?;
@@ -62,9 +72,11 @@ class CitiesRecord extends FirestoreRecord {
     _cityDescription = snapshotData['cityDescription'] as String?;
     _founded = castToType<int>(snapshotData['founded']);
     _cityPopulation = castToType<int>(snapshotData['cityPopulation']);
-    _index = castToType<int>(snapshotData['index']);
-    _userLiked = getDataList(snapshotData['userLiked']);
-    _userDisliked = getDataList(snapshotData['userDisliked']);
+    _isActive = snapshotData['isActive'] as bool?;
+    _cityType = snapshotData['cityType'] as String?;
+    _uid = snapshotData['uid'] as String?;
+    _createdTime = snapshotData['created_time'] as DateTime?;
+    _createdBy = snapshotData['created_by'] as DocumentReference?;
   }
 
   static CollectionReference get collection =>
@@ -106,7 +118,11 @@ Map<String, dynamic> createCitiesRecordData({
   String? cityDescription,
   int? founded,
   int? cityPopulation,
-  int? index,
+  bool? isActive,
+  String? cityType,
+  String? uid,
+  DateTime? createdTime,
+  DocumentReference? createdBy,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -115,7 +131,11 @@ Map<String, dynamic> createCitiesRecordData({
       'cityDescription': cityDescription,
       'founded': founded,
       'cityPopulation': cityPopulation,
-      'index': index,
+      'isActive': isActive,
+      'cityType': cityType,
+      'uid': uid,
+      'created_time': createdTime,
+      'created_by': createdBy,
     }.withoutNulls,
   );
 
@@ -127,15 +147,16 @@ class CitiesRecordDocumentEquality implements Equality<CitiesRecord> {
 
   @override
   bool equals(CitiesRecord? e1, CitiesRecord? e2) {
-    const listEquality = ListEquality();
     return e1?.cityPhoto == e2?.cityPhoto &&
         e1?.cityName == e2?.cityName &&
         e1?.cityDescription == e2?.cityDescription &&
         e1?.founded == e2?.founded &&
         e1?.cityPopulation == e2?.cityPopulation &&
-        e1?.index == e2?.index &&
-        listEquality.equals(e1?.userLiked, e2?.userLiked) &&
-        listEquality.equals(e1?.userDisliked, e2?.userDisliked);
+        e1?.isActive == e2?.isActive &&
+        e1?.cityType == e2?.cityType &&
+        e1?.uid == e2?.uid &&
+        e1?.createdTime == e2?.createdTime &&
+        e1?.createdBy == e2?.createdBy;
   }
 
   @override
@@ -145,9 +166,11 @@ class CitiesRecordDocumentEquality implements Equality<CitiesRecord> {
         e?.cityDescription,
         e?.founded,
         e?.cityPopulation,
-        e?.index,
-        e?.userLiked,
-        e?.userDisliked
+        e?.isActive,
+        e?.cityType,
+        e?.uid,
+        e?.createdTime,
+        e?.createdBy
       ]);
 
   @override

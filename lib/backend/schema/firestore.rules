@@ -15,43 +15,12 @@ service cloud.firestore {
       allow delete: if true;
     }
 
-    match /Transactions/{document} {
-      allow create: if true;
-      allow read: if true;
-      allow write: if false;
-      allow delete: if false;
-    }
-
     match /animals/{document} {
       allow create: if true;
       allow read: if true;
       allow write: if true;
       allow delete: if true;
     }
-
-    match /animals/{parent}/type/{document} {
-      allow create: if true;
-      allow read: if true;
-      allow write: if true;
-      allow delete: if true;
-    }
-
-    match /{path=**}/type/{document} {
-      allow read: if true;
-    }
-
-
-    match /animals/{parent}/breed/{document} {
-      allow create: if true;
-      allow read: if true;
-      allow write: if true;
-      allow delete: if true;
-    }
-
-    match /{path=**}/breed/{document} {
-      allow read: if true;
-    }
-
 
     match /measurement/{document} {
       allow create: if true;

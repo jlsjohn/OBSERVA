@@ -163,6 +163,8 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
 
   @override
   Widget build(BuildContext context) {
+    context.watch<FFAppState>();
+
     return ClipRRect(
       child: BackdropFilter(
         filter: ImageFilter.blur(
@@ -233,7 +235,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                         ),
                         Text(
                           FFLocalizations.of(context).getText(
-                            'wa4vkne2' /* Congratulations! */,
+                            'wa4vkne2' /* Atention! */,
                           ),
                           style: FlutterFlowTheme.of(context).headlineSmall,
                         ).animateOnPageLoad(
@@ -243,7 +245,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                               0.0, 8.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              '3hf2ocig' /* Now that a contract has been g... */,
+                              '3hf2ocig' /* You realy will delete this ite... */,
                             ),
                             style: FlutterFlowTheme.of(context).bodySmall,
                           ).animateOnPageLoad(
@@ -264,7 +266,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                                       print('Button pressed ...');
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'q0jvi1lp' /* Okay */,
+                                      'q0jvi1lp' /* Yes */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 160.0,
@@ -295,11 +297,11 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8.0, 16.0, 0.0, 0.0),
                                   child: FFButtonWidget(
-                                    onPressed: () {
-                                      print('Button pressed ...');
+                                    onPressed: () async {
+                                      context.safePop();
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'oo4y13nf' /* Continue */,
+                                      'oo4y13nf' /* No */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 160.0,

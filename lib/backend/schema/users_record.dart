@@ -56,6 +56,11 @@ class UsersRecord extends FirestoreRecord {
   String get status => _status ?? '';
   bool hasStatus() => _status != null;
 
+  // "isActive" field.
+  bool? _isActive;
+  bool get isActive => _isActive ?? false;
+  bool hasIsActive() => _isActive != null;
+
   void _initializeFields() {
     _email = snapshotData['email'] as String?;
     _displayName = snapshotData['display_name'] as String?;
@@ -65,6 +70,7 @@ class UsersRecord extends FirestoreRecord {
     _phoneNumber = snapshotData['phone_number'] as String?;
     _lastActive = snapshotData['lastActive'] as DateTime?;
     _status = snapshotData['status'] as String?;
+    _isActive = snapshotData['isActive'] as bool?;
   }
 
   static CollectionReference get collection =>
@@ -109,6 +115,7 @@ Map<String, dynamic> createUsersRecordData({
   String? phoneNumber,
   DateTime? lastActive,
   String? status,
+  bool? isActive,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -120,6 +127,7 @@ Map<String, dynamic> createUsersRecordData({
       'phone_number': phoneNumber,
       'lastActive': lastActive,
       'status': status,
+      'isActive': isActive,
     }.withoutNulls,
   );
 
@@ -138,7 +146,8 @@ class UsersRecordDocumentEquality implements Equality<UsersRecord> {
         e1?.createdTime == e2?.createdTime &&
         e1?.phoneNumber == e2?.phoneNumber &&
         e1?.lastActive == e2?.lastActive &&
-        e1?.status == e2?.status;
+        e1?.status == e2?.status &&
+        e1?.isActive == e2?.isActive;
   }
 
   @override
@@ -150,7 +159,8 @@ class UsersRecordDocumentEquality implements Equality<UsersRecord> {
         e?.createdTime,
         e?.phoneNumber,
         e?.lastActive,
-        e?.status
+        e?.status,
+        e?.isActive
       ]);
 
   @override
