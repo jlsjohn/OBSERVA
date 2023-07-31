@@ -2,11 +2,11 @@
 
 Projeto Disciplina PGIA 7310 - Fundamentos de Informática Aplicada UFRPE
 
-## LOGOS APP
+## Logos do app
 
 ![LIGHT](assets/images/OBSERVA_LOGO.png) ![DARK](assets/images/OBSERVA_LOGO_D.png)
 
-## SOBRE O APP
+## Sobre o app
 
 ### Slogan
 "OBSERVA: Monitore a saúde de seus animais com precisão!"
@@ -27,11 +27,11 @@ O OBSERVA é destinado a cuidadores de animais que valorizam informações preci
 [Link para o video de apresentação do app](https://youtu.be/ZjmerEBOoOY)
 
 ## Fluxogramas
-* STORYBOARD, BY: FLUTTERFLOW.IO \
+* Storyboard, by: Flutterflow.io \
 [Visualizar fluxo do storyboard gerado pelo flutterflow](assets/images/fake_mapa.png)
-* FLUXO DE LOGIN \
+* Fluxo de Login \
 [Visualizar fluxo do login](assets/images/fluxograma_login.png)
-* FLUXO BASE DO APP \
+* Fluxo base do app \
 [Visualizar fluxo do app](assets/images/fluxograma_base.png)
 
 ## Telas
@@ -65,11 +65,11 @@ Abaixo estão as telas em modo de execução do app instalado em um dispositivo 
 * Componente de edição de foto de perfil; [Vizualizar](assets/images/editar_foto_perfil.png)
 * Componente de criação de notas. [Vizualizar](assets/images/adicionar_nota.png)
 
-## REPOSITORIO DO APP
+## Repositório do app:
 O APP está disponível no seguinte repositório:
 [https://github.com/jlsjohn/OBSERVA](https://github.com/jlsjohn/OBSERVA)
 
-## FERRAMENTAS UTILIZADAS NA DOCUMENTAÇÂO E CONSTRUÇÃO DO APP
+## Ferramentas utilizadas na documentação e construção do app:
 * Criar Fluxograma: [Microsoft Word](https://www.microsoft.com/pt-br/microsoft-365/word);
 * Criar Figuras e logomarca: Ferramentas de criação com IA do [Bing chat](https://www.bing.com/); Editor [Inkskape](https://inkscape.org);
 * Criar Vídeo: [OBS Studio](https://obsproject.com), editor de video do Windows - [Fotos Microsoft 2023](https://apps.microsoft.com/store/detail/fotos-microsoft/9WZDNCRFJBH4);
