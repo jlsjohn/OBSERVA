@@ -28,11 +28,11 @@ O OBSERVA é destinado a cuidadores de animais que valorizam informações preci
 
 ## Fluxogramas
 * Storyboard, by: Flutterflow.io \
-[Visualizar fluxo do storyboard gerado pelo flutterflow](assets/images/fake_mapa.png)
+![Visualizar fluxo do storyboard gerado pelo flutterflow](assets/images/fake_mapa.png)
 * Fluxo de Login \
-[Visualizar fluxo do login](assets/images/fluxograma_login.png)
+![Visualizar fluxo do login](assets/images/fluxograma_login.png)
 * Fluxo base do app \
-[Visualizar fluxo do app](assets/images/fluxograma_base.png)
+![Visualizar fluxo do app](assets/images/fluxograma_base.png)
 
 ## Telas
 Abaixo estão as telas iniciais e em preview mode; \
